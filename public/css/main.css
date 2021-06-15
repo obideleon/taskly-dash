@@ -65,3 +65,19 @@
   line-height: 16.94px;
   border-radius: 0.5rem;
 }
+
+.schedule__group-box {
+  @apply ml-20 flex flex-row justify-center items-center border border-solid rounded-2xl w-64 h-20;
+}
+
+.sched-pic {
+  @apply w-10 h-9 rounded-full flex flex-row justify-center items-center mr-3 ml-2;
+}
+
+.sched__name {
+  font-size: 12px;
+}
+
+.sched__description {
+  font-size: 14px;
+}
