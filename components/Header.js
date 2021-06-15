@@ -1,4 +1,4 @@
-const Header = (props) => {
+const Header = () => {
   return (
     <div className="header__container flex flex-row">
       <div class="greeting__container flex flex-col ml-24 m-10">

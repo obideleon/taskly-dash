@@ -6,7 +6,7 @@ import DailySchedTime from "../components/DailySchedTime";
 import TaskCard from "../components/TaskCard";
 import TeamCard from "../components/TeamCard";
 
-const Main = (props) => {
+const Main = () => {
   return (
     <div className="main h-[calc(100vw - 80px)] ml-20 flex flex-row">
       <div className="mid-section w-8/12">
@@ -82,18 +82,32 @@ const Main = (props) => {
           <div className="task-history__wrapper w-1/2">
             <Heading name="Task History" />
             <div className="task-history__cards flex flex-row ml-24 mt-10">
-            <TaskCard time="20hr" label="Time" bgCard="bg-blue-50" bgBox="bg-blue-100" bgIcon="text-blue" textColor="text-blue" />
-            <TaskCard time="250" label="Meeting" bgCard="bg-orange-50" bgBox="bg-orange-100" bgIcon="text-orange" textColor="text-orange" />
+              <TaskCard
+                time="20hr"
+                label="Time"
+                bgCard="bg-blue-50"
+                bgBox="bg-blue-100"
+                bgIcon="text-blue"
+                textColor="text-blue"
+              />
+              <TaskCard
+                time="250"
+                label="Meeting"
+                bgCard="bg-orange-50"
+                bgBox="bg-orange-100"
+                bgIcon="text-orange"
+                textColor="text-orange"
+              />
             </div>
           </div>
         </div>
       </div>
       <div className="aside-section w-4/12 ml-32 shadow p-10">
-          <div className="aside__profile-card mt-96">
-          <TeamCard name="Aseif Rahman" position="Creative Director"/>
-          <TeamCard name="Lexy Sanz" position="UX Designer"/>
-          <TeamCard name="Kraul Brown" position="UI Designer"/>
-      </div>
+        <div className="aside__profile-card mt-96">
+          <TeamCard name="Aseif Rahman" position="Creative Director" />
+          <TeamCard name="Lexy Sanz" position="UX Designer" />
+          <TeamCard name="Kraul Brown" position="UI Designer" />
+        </div>
       </div>
     </div>
   );

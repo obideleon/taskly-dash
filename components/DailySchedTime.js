@@ -1,6 +1,6 @@
 import { ChevronDownIcon } from "@heroicons/react/solid";
 
-const DailySchedTime = (props) => {
+const DailySchedTime = () => {
   return (
     <div class="time-container flex flex-col ml-24">
       <p class="time">08:00</p>
