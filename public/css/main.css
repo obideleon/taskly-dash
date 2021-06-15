@@ -22,3 +22,46 @@
 #sidebar:hover span {
   opacity: 1;
 }
+
+/* jani meeting list */
+
+.meeting__group-container {
+  @apply flex flex-col border border-solid border-gray-50 p-10 rounded-2xl mr-0 w-72 h-40 ml-20 mt-20;
+}
+
+.meeting-group-icon {
+  @apply flex justify-center items-center w-12 h-12 rounded-xl mr-2.5;
+}
+
+.meeting__name {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.meeting__description {
+  font-size: 14px;
+  line-height: 16.94px;
+}
+
+.meeting__group-time {
+  font-size: 12px;
+  line-height: 14.52px;
+}
+
+.decline-btn {
+  background: none !important;
+  color: #EB3738;
+  margin-left: 1rem;
+  margin-right: 0.8rem;
+}
+
+.decline-btn:hover {
+  background: #EB3738 !important;
+  color: #fff;
+}
+
+.decline-btn, .accept-btn {
+  font-size: 14px;
+  line-height: 16.94px;
+  border-radius: 0.5rem;
+}

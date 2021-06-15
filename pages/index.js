@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Nav from "../components/Nav";
+import MeetingCard from "../components/MeetingCard";
 
 const Page = () => (
   <>
@@ -39,7 +40,14 @@ const Page = () => (
     </Head>
     <div>
       <Nav />
+
+      {/* <div class="meeting__participants-container flex flex-row">
+      <MeetingCard name="Team UI/UX" description="Weekly team meeting" time="10:00 - 11:00 AM" bgColor="bg-blue-200"/>
+      <MeetingCard name="Usability Testing" description="with Mr. Ferdinand" time="10:00 - 11:00 AM" bgColor="bg-orange"/>
+      <MeetingCard name="Offline Meeting" description="Client from USA" time="11:20 - 12:20 AM" bgColor="bg-purple"/>
+      </div> */}
     </div>
+
   </>
 );
 
