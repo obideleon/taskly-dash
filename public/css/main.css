@@ -24,13 +24,31 @@
 }
 
 /* jani meeting list */
+.greeting__title {
+  font-size: 24px;
+}
+
+.greeting__description {
+  font-size: 14px;
+}
+
+.meeting__title {
+  font-size: 20px;
+}
+
+.meeting__title-container, .header__container {
+  justify-content: space-between;
+}
+.meeting__schedule {
+  font-size: 14px;
+}
 
 .meeting__group-container {
-  @apply flex flex-col border border-solid border-gray-50 p-10 rounded-2xl mr-0 w-72 h-40 ml-20 mt-20;
+  @apply flex flex-col justify-center items-center rounded-xl bg-white -mr-14 w-64 h-40 ml-20 mt-20;
 }
 
 .meeting-group-icon {
-  @apply flex justify-center items-center w-12 h-12 rounded-xl mr-2.5;
+  @apply flex justify-center items-center w-12 h-12 rounded-xl mr-3;
 }
 
 .meeting__name {
@@ -67,17 +85,42 @@
 }
 
 .schedule__group-box {
-  @apply ml-20 flex flex-row justify-center items-center border border-solid rounded-2xl w-64 h-20;
+  @apply ml-20 flex flex-row justify-center items-center border border-solid rounded-2xl w-56 h-20;
 }
 
 .sched-pic {
-  @apply w-10 h-9 rounded-full flex flex-row justify-center items-center mr-3 ml-2;
+  @apply w-10 h-10 rounded-full flex flex-row justify-center items-center mr-3 ml-2;
 }
 
 .sched__name {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .sched__description {
+  font-size: 12px;
+}
+
+.time {
+  @apply text-gray-50 mb-10;
+  font-size: 14px;
+}
+
+.task-specs-title {
+  font-size: 20px;
+}
+
+.task-specs-description {
+  font-size: 16px;
+}
+
+.meeting-team__profile-container {
+  justify-content: space-between;
+}
+
+.meeting-team__profile-name {
+  font-size: 16px;
+}
+
+.meeting-team__profile-description {
   font-size: 14px;
 }

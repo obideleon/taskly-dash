@@ -3,7 +3,7 @@ import { ClockIcon } from "@heroicons/react/outline";
 
 const MeetingCard = (props) => {
   return (
-    <div className="meeting__group-container">
+    <div className="meeting__group-container shadow">
       <div className="meeting__group-info flex flex-row">
         <div className={`meeting-group-icon ${props.bgColor}`}>
           <StarIcon className="text-white-100 w-6 h-6" />
