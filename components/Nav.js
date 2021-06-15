@@ -1,62 +1,94 @@
+import {
+  HomeIcon,
+  ChartPieIcon,
+  FolderIcon,
+  ArchiveIcon,
+  TrashIcon,
+  CogIcon,
+  LogoutIcon,
+} from "@heroicons/react/outline";
+
 const Nav = () => {
   return (
     <div
       id="sidebar"
-      className="h-screen w-16 menu bg-white text-white px-4 flex items-center  static fixed shadow"
+      className="h-screen w-16 menu bg-white text-white px-4 flex items-start static fixed shadow"
     >
-      <ul className="list-reset ">
-        <li className="my-2 md:my-0">
+      <ul className="list-reset my-20">
+        <li className="my-2 md:my-0 text-gray-50 hover:text-blue-200">
           <a
             href="#"
-            className="block py-1 md:py-3 pl-1 align-middle text-gray-600 no-underline hover:text-indigo-400"
+            className="block py-1 md:py-3 pl-1 align-middle text-gray-600 no-underline flex space-x-11"
           >
-            <i className="fas fa-home fa-fw mr-3"></i>
-            <span className="w-full inline-block pb-1 md:pb-0 text-sm">
+            <HomeIcon className="h-6 w-6 my-2" />
+            <span className="w-full inline-block pb-1 md:pb-0 text-sm mt-3">
               Home
             </span>
           </a>
         </li>
-        <li className="my-2 md:my-0 ">
+        <li className="my-2 md:my-0 text-gray-50 hover:text-blue-200">
           <a
             href="#"
-            className="block py-1 md:py-3 pl-1 align-middle text-gray-600 no-underline hover:text-indigo-400"
+            className="block py-1 md:py-3 pl-1 align-middle text-gray-600 no-underline flex space-x-11"
           >
-            <i className="fas fa-tasks fa-fw mr-3"></i>
-            <span className="w-full inline-block pb-1 md:pb-0 text-sm">
-              Tasks
+            <ChartPieIcon className="h-6 w-6 my-2" />
+            <span className="w-full inline-block pb-1 md:pb-0 text-sm mt-3">
+              Progress
             </span>
           </a>
         </li>
-        <li className="my-2 md:my-0">
+        <li className="my-2 md:my-0 text-gray-50 hover:text-blue-200">
           <a
             href="#"
-            className="block py-1 md:py-3 pl-1 align-middle text-gray-600 no-underline hover:text-indigo-400"
+            className="block py-1 md:py-3 pl-1 align-middle no-underline flex space-x-11"
           >
-            <i className="fa fa-envelope fa-fw mr-3"></i>
-            <span className="w-full inline-block pb-1 md:pb-0 text-sm">
-              Messages
+            <FolderIcon className="h-6 w-6 my-2" />
+            <span className="w-full inline-block pb-1 md:pb-0 text-sm mt-3">
+              Files
             </span>
           </a>
         </li>
-        <li className="my-2 md:my-0">
+        <li className="my-2 md:my-0 text-gray-50 hover:text-blue-200">
           <a
             href="#"
-            className="block py-1 md:py-3 pl-1 align-middle text-gray-600 no-underline hover:text-indigo-400"
+            className="block py-1 md:py-3 pl-1 align-middle no-underline flex space-x-11"
           >
-            <i className="fas fa-chart-area fa-fw mr-3 text-indigo-400"></i>
-            <span className="w-full inline-block pb-1 md:pb-0 text-sm">
-              Analytics
+            <ArchiveIcon className="h-6 w-6 my-2" />
+            <span className="w-full inline-block pb-1 md:pb-0 text-sm mt-3">
+              Folders
             </span>
           </a>
         </li>
-        <li className="my-2 md:my-0">
+        <li className="my-2 md:my-0 text-gray-50 hover:text-blue-200">
           <a
             href="#"
-            className="block py-1 md:py-3 pl-1 align-middle text-gray-600 no-underline hover:text-indigo-400"
+            className="block py-1 md:py-3 pl-1 align-middle no-underline flex space-x-10"
           >
-            <i className="fa fa-wallet fa-fw mr-3"></i>
-            <span className="w-full inline-block pb-1 md:pb-0 text-sm">
-              Payments
+            <TrashIcon className="h-6 w-6 my-2" />
+            <span className="w-full inline-block pb-1 md:pb-0 text-sm mt-3">
+              Archive
+            </span>
+          </a>
+        </li>
+        <li className="my-2 md:my-0 text-gray-50 hover:text-blue-200">
+          <a
+            href="#"
+            className="block py-1 md:py-3 pl-1 align-middle no-underline flex space-x-11 mt-64"
+          >
+            <CogIcon className="h-6 w-6 my-2" />
+            <span className="w-full inline-block pb-1 md:pb-0 text-sm mt-3">
+              Settings
+            </span>
+          </a>
+        </li>
+        <li className="my-2 md:my-0 text-gray-50 hover:text-blue-200">
+          <a
+            href="#"
+            className="block py-1 md:py-3 pl-1 align-middle no-underline flex space-x-11"
+          >
+            <LogoutIcon className="h-6 w-6 my-2" />
+            <span className="w-full inline-block pb-1 md:pb-0 text-sm mt-3">
+              Log out
             </span>
           </a>
         </li>

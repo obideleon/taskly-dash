@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Nav from "../components/Nav";
+import MeetingCard from "../components/MeetingCard";
+import ScheduleCard from "../components/ScheduleCard";
 
 const Page = () => (
   <>
@@ -39,7 +41,21 @@ const Page = () => (
     </Head>
     <div>
       <Nav />
+
+      {/* Meeting list */}
+      {/* <div class="meeting__participants-container flex flex-row">
+      <MeetingCard name="Team UI/UX" description="Weekly team meeting" time="10:00 - 11:00 AM" bgColor="bg-blue-200"/>
+      <MeetingCard name="Usability Testing" description="with Mr. Ferdinand" time="10:00 - 11:00 AM" bgColor="bg-orange"/>
+      <MeetingCard name="Offline Meeting" description="Client from USA" time="11:20 - 12:20 AM" bgColor="bg-purple"/>
+      </div> */}
+
+      {/* Daily Sched */}
+      {/* <ScheduleCard name="Team Meeting" time="08:00 AM - 09:00 AM" bgColor="bg-blue-200" borderColor="text-blue-200"/>
+      <ScheduleCard name="Usability Testing" time="09:30 AM -10:30 AM" bgColor="bg-orange" borderColor="text-orange"/>
+      <ScheduleCard name="Office Meeting" time="11:20 AM -12:20 AM" bgColor="bg-purple" borderColor="text-purple"/>
+      <ScheduleCard name="Client Briefing" time="12:00 AM - 14:00 AM" bgColor="bg-green" borderColor="text-green"/> */}
     </div>
+
   </>
 );
 

@@ -454,11 +454,14 @@
     "ansi-styles" "^4.1.0"
     "supports-color" "^7.1.0"
 
+<<<<<<< HEAD
 "chart.js@^3.1.0", "chart.js@^3.3.2":
   "integrity" "sha512-H0hSO7xqTIrwxoACqnSoNromEMfXvfuVnrbuSt2TuXfBDDofbnto4zuZlRtRvC73/b37q3wGAWZyUU41QPvNbA=="
   "resolved" "https://registry.npmjs.org/chart.js/-/chart.js-3.3.2.tgz"
   "version" "3.3.2"
 
+=======
+>>>>>>> 039c60daf386846210f22d31aa7b6c1e08db7635
 "chokidar@^3.5.1", "chokidar@3.5.1":
   "integrity" "sha512-9+s+Od+W0VJJzawDma/gvBNQqkTiqYTWLuZoyAsivsI4AaWTCzHG06/TMjsf1cYe9Cb97UCEhjz7HvnPk2p/tw=="
   "resolved" "https://registry.npmjs.org/chokidar/-/chokidar-3.5.1.tgz"
@@ -1293,7 +1296,11 @@
   "resolved" "https://registry.npmjs.org/lodash.topath/-/lodash.topath-4.5.2.tgz"
   "version" "4.5.2"
 
+<<<<<<< HEAD
 "lodash@^4.17.13", "lodash@^4.17.19", "lodash@^4.17.21":
+=======
+"lodash@^4.17.13", "lodash@^4.17.21":
+>>>>>>> 039c60daf386846210f22d31aa7b6c1e08db7635
   "integrity" "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
   "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   "version" "4.17.21"
@@ -1853,6 +1860,7 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
+<<<<<<< HEAD
 "react-chartjs-2@^3.0.3":
   "integrity" "sha512-jOFZKwZ8sMLkddewZ/tToxuu4pYimAvvY5I6uK+hCpSFT16Pvo2bdHhUoZ0X87zu9I+dx2I+JCqaLN6XhmrbDg=="
   "resolved" "https://registry.npmjs.org/react-chartjs-2/-/react-chartjs-2-3.0.3.tgz"
@@ -1860,6 +1868,8 @@
   dependencies:
     "lodash" "^4.17.19"
 
+=======
+>>>>>>> 039c60daf386846210f22d31aa7b6c1e08db7635
 "react-dom@^16.6.0 || ^17", "react-dom@^16.9.0 || ^17", "react-dom@^17.0.2":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
