@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Sidebar */
 #sidebar {
   transition: ease-in-out all 0.3s;
   z-index: 9999;
@@ -23,6 +24,15 @@
   opacity: 1;
 }
 
+/* Statistic Card */
+.chartInner {
+  top: 22%;
+  right: 20%;
+  bottom: 20%;
+  left: 20%;
+  line-height: 120%;
+  z-index: -1; /* Allow tooltips on top */
+}
 /* jani meeting list */
 
 .meeting__group-container {
