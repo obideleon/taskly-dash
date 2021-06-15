@@ -12,15 +12,15 @@ const Nav = () => {
   return (
     <div
       id="sidebar"
-      className="h-screen w-16 menu bg-white text-white px-4 flex items-start static fixed shadow"
+      className="h-screen w-20 menu bg-white text-white px-6 flex items-start static fixed shadow"
     >
-      <ul className="list-reset my-20">
+      <ul className="list-reset my-28">
         <li className="my-2 md:my-0 text-gray-50 hover:text-blue-200">
           <a
             href="#"
             className="block py-1 md:py-3 pl-1 align-middle text-gray-600 no-underline flex space-x-11"
           >
-            <HomeIcon className="h-6 w-6 my-2" />
+            <HomeIcon className="h-6 w-6 my-2 opacity-80" />
             <span className="w-full inline-block pb-1 md:pb-0 text-sm mt-3">
               Home
             </span>
@@ -31,7 +31,7 @@ const Nav = () => {
             href="#"
             className="block py-1 md:py-3 pl-1 align-middle text-gray-600 no-underline flex space-x-11"
           >
-            <ChartPieIcon className="h-6 w-6 my-2" />
+            <ChartPieIcon className="h-6 w-6 my-2 opacity-80" />
             <span className="w-full inline-block pb-1 md:pb-0 text-sm mt-3">
               Progress
             </span>
@@ -42,7 +42,7 @@ const Nav = () => {
             href="#"
             className="block py-1 md:py-3 pl-1 align-middle no-underline flex space-x-11"
           >
-            <FolderIcon className="h-6 w-6 my-2" />
+            <FolderIcon className="h-6 w-6 my-2 opacity-80" />
             <span className="w-full inline-block pb-1 md:pb-0 text-sm mt-3">
               Files
             </span>
@@ -53,7 +53,7 @@ const Nav = () => {
             href="#"
             className="block py-1 md:py-3 pl-1 align-middle no-underline flex space-x-11"
           >
-            <ArchiveIcon className="h-6 w-6 my-2" />
+            <ArchiveIcon className="h-6 w-6 my-2 opacity-80" />
             <span className="w-full inline-block pb-1 md:pb-0 text-sm mt-3">
               Folders
             </span>
@@ -64,7 +64,7 @@ const Nav = () => {
             href="#"
             className="block py-1 md:py-3 pl-1 align-middle no-underline flex space-x-10"
           >
-            <TrashIcon className="h-6 w-6 my-2" />
+            <TrashIcon className="h-6 w-6 my-2 opacity-80" />
             <span className="w-full inline-block pb-1 md:pb-0 text-sm mt-3">
               Archive
             </span>
@@ -75,7 +75,7 @@ const Nav = () => {
             href="#"
             className="block py-1 md:py-3 pl-1 align-middle no-underline flex space-x-11 mt-64"
           >
-            <CogIcon className="h-6 w-6 my-2" />
+            <CogIcon className="h-6 w-6 my-2 opacity-80" />
             <span className="w-full inline-block pb-1 md:pb-0 text-sm mt-3">
               Settings
             </span>
@@ -86,7 +86,7 @@ const Nav = () => {
             href="#"
             className="block py-1 md:py-3 pl-1 align-middle no-underline flex space-x-11"
           >
-            <LogoutIcon className="h-6 w-6 my-2" />
+            <LogoutIcon className="h-6 w-6 my-2 opacity-80" />
             <span className="w-full inline-block pb-1 md:pb-0 text-sm mt-3">
               Log out
             </span>
