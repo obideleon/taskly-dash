@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Nav from "../components/Nav";
 import Main from "../components/Main";
-
+import Progress from "../components/Progress";
+import StatisticCard from "../components/StatisticCard";
 
 const Page = () => (
   <>
@@ -40,9 +41,11 @@ const Page = () => (
       />
     </Head>
     <div>
-      <Nav />
-      <Main />
-  </div>
+      {/* <Nav /> */}
+      {/* <Main /> */}
+      <Progress />
+      <StatisticCard />
+    </div>
   </>
 );
 
