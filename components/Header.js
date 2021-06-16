@@ -1,6 +1,8 @@
+import { SearchIcon } from "@heroicons/react/outline";
+
 const Header = () => {
   return (
-    <div className="header__container flex flex-row">
+    <div className="header__container flex flex-row lg:pr-20">
       <div class="greeting__container flex flex-col ml-24 m-10">
         <h1 class="greeting__title text-gray font-bold">
           Good Morning, Emilia S.
@@ -9,14 +11,14 @@ const Header = () => {
           Welcome back, nice to see you again!
         </p>
       </div>
-      <div className="shadow flex w-80 h-12 mt-10">
+      <div className="shadow w-80 h-12 mt-10 -mr-12 hidden lg:block relative">
         <input
-          className="rounded p-2 focus:outline-none"
+          className="rounded w-80 h-12 p-2 focus:outline-none"
           type="text"
           placeholder="Search..."
         />
-        <button className="bg-white w-auto flex justify-end items-center text-blue-500 p-2 hover:text-blue-400">
-          <i className="material-icons"></i>
+        <button className="absolute right-2 top-2 w-auto flex justify-end items-center text-blue-500 p-2 hover:text-blue-400">
+          <SearchIcon className="search-icon w-5 h-5" />
         </button>
       </div>
     </div>

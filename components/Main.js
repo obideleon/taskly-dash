@@ -8,15 +8,15 @@ import TeamCard from "../components/TeamCard";
 
 const Main = () => {
   return (
-    <div className="main h-[calc(100vw - 80px)] ml-20 flex flex-row">
-      <div className="mid-section w-8/12">
+    <div className="main h-[calc(100vw - 5rem)] ml-0 sm:ml-5 flex flex-row">
+      <div className="mid-section w-screen 2xl:w-9/12">
         <Header />
         {/* Meeting list */}
-        <div className="meeting-list__wrapper">
+        <div className="meeting-list__wrapper pr-4 lg:pr-10">
           <Heading name="Meeting List" />
-          <div class="meeting__participants-container flex flex-row -mt-10 ml-3">
+          <div class="meeting__participants-container overflow-hidden flex flex-row -mt-10 ml-3 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 ml-24">
             <MeetingCard
-              name="Team UI/UX Meeting"
+              name="Team UI/UX"
               description="Weekly team meeting"
               time="10:00 - 11:00 AM"
               bgColor="bg-blue-200"
@@ -42,10 +42,10 @@ const Main = () => {
           </div>
         </div>
 
-        <div className="sched__container flex flex-row mt-14">
+        <div className="sched__container flex flex-row mt-20 grid grid-cols-1 lg:grid-cols-2 md:mt-24 2xl:space-x-10 lg:pr-10">
           {/* Daily Sched */}
 
-          <div className="daily-sched__wrapper w-1/2">
+          <div className="daily-sched__wrapper pr-5">
             <Heading name="Daily Sched" />
             <div className="daily-sched-with-time__container flex flex-row mt-10">
               <DailySchedTime />
@@ -79,9 +79,9 @@ const Main = () => {
           </div>
 
           {/* Task History */}
-          <div className="task-history__wrapper w-1/2">
+          <div className="task-history__wrapper pr-5">
             <Heading name="Task History" />
-            <div className="task-history__cards flex flex-row ml-24 mt-10">
+            <div className="task-history__cards grid grid-cols-1 md:grid-cols-2 flex flex-row mt-10 ml-32">
               <TaskCard
                 time="20hr"
                 label="Time"
@@ -89,6 +89,7 @@ const Main = () => {
                 bgBox="bg-blue-100"
                 bgIcon="text-blue"
                 textColor="text-blue"
+                icon="clock"
               />
               <TaskCard
                 time="250"
@@ -102,11 +103,23 @@ const Main = () => {
           </div>
         </div>
       </div>
-      <div className="aside-section w-4/12 ml-32 shadow p-10">
-        <div className="aside__profile-card mt-96">
-          <TeamCard name="Aseif Rahman" position="Creative Director" />
-          <TeamCard name="Lexy Sanz" position="UX Designer" />
-          <TeamCard name="Kraul Brown" position="UI Designer" />
+      <div className="aside-section lg:w-3/12 shadow p-10 hidden lg:block">
+        <div className="aside__profile-card mt-96 pt-56">
+          <TeamCard
+            name="Aseif Rahman"
+            position="Creative Director"
+            pic="./img/dp1.jpg"
+          />
+          <TeamCard
+            name="Lexy Sanz"
+            position="UX Designer"
+            pic="./img/dp2.jpg"
+          />
+          <TeamCard
+            name="Kraul Brown"
+            position="UI Designer"
+            pic="./img/dp3.jpg"
+          />
         </div>
       </div>
     </div>
