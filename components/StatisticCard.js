@@ -24,7 +24,7 @@ const StatisticCard = () => {
       <div className="text-center mx-auto max-w-full relative w-56">
         <Doughnut data={data} options={options} height={200} width={200} />
 
-        <div className="chartInner flex flex-col justify-center absolute rounded-full px-0 py-5 overflow-hidden">
+        <div className="chartInner">
           <p className="text-2xl font-bold text-blue">128</p>
           <p className="text-xs">Total Meeting</p>
         </div>

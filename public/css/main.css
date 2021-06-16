@@ -26,6 +26,7 @@
 
 /* Statistic Card */
 .chartInner {
+  @apply flex flex-col justify-center absolute rounded-full px-0 py-5 overflow-hidden;
   top: 22%;
   right: 20%;
   bottom: 20%;
@@ -79,17 +80,18 @@
 
 /* .decline-btn {
   background: none !important;
-  color: #EB3738;
+  color: #eb3738;
   margin-left: 1rem;
   margin-right: 0.8rem;
 }
 
 .decline-btn:hover {
-  background: #EB3738 !important;
+  background: #eb3738 !important;
   color: #fff;
 }
 
-.decline-btn, .accept-btn {
+.decline-btn,
+.accept-btn {
   font-size: 14px;
   line-height: 16.94px;
   border-radius: 0.5rem;
