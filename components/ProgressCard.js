@@ -1,14 +1,16 @@
-const ProgressCard = ({ width, bgColor, profilePic, title }) => {
+const ProgressCard = ({ width, bgColor, taskName }) => {
   return (
     <div className="flex w-full mt-8">
-      <img
-        className={`${bgColor} w-10 h-10 rounded-full mr-4`}
-        src={`./img/${profilePic}.png`}
-        alt=""
-      />
+      <div>
+        <div
+          className={`${bgColor} w-9 h-9 border-${bgColor} rounded-full mr-4 flex justify-center items-center`}
+        >
+          <p className="text-base font-medium text-white">{taskName[0]}</p>
+        </div>
+      </div>
       <div className="w-full">
         <div className="flex justify-between font-medium">
-          <p className="text-sm">{title}</p>
+          <p className="text-sm">{taskName}</p>
           <p className="text-xs text-blue-200">{width}%</p>
         </div>
         <div className="relative pt-1 mt-2">
