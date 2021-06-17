@@ -4,7 +4,7 @@ import { UserGroupIcon } from "@heroicons/react/solid";
 const TaskCard = (props) => {
   return (
     <div
-      className={`schedule__task-time flex flex-row justify-center items-center w-40 h-28 rounded-xl mr-6 mb-2 ${props.bgCard}`}
+      className={`schedule__task-time flex flex-row justify-center items-center w-40 h-28 rounded-xl mb-2 ${props.bgCard}`}
     >
       <div
         className={`task-icon-container w-10 h-10 mr-3 rounded-xl ${props.bgBox}`}
@@ -16,10 +16,12 @@ const TaskCard = (props) => {
         )}
       </div>
       <div className="task-specs-container flex flex-col">
-        <h2 className={`task-specs-title font-bold ${props.textColor}`}>
+        <h2 className={`task-specs-title font-bold text-xl ${props.textColor}`}>
           {props.time}
         </h2>
-        <p className="task-specs-description text-gray">{props.label}</p>
+        <p className="task-specs-description text-gray text-base">
+          {props.label}
+        </p>
       </div>
     </div>
   );
