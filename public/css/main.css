@@ -42,31 +42,12 @@
 }
 
 .meeting__group-container {
-  @apply flex flex-col justify-center items-center rounded-xl bg-white lg:-mr-14 w-64 h-40;
+  @apply flex flex-col justify-center rounded-xl bg-white h-40;
 }
 
 .meeting-group-icon {
-  @apply flex justify-center items-center w-12 h-12 rounded-xl mr-3;
+  @apply flex justify-center items-center w-12 h-12 ml-14 mr-2 rounded-xl xl:ml-28 2xl:ml-14;
 }
-
-/* .decline-btn {
-  background: none !important;
-  color: #eb3738;
-  margin-left: 1rem;
-  margin-right: 0.8rem;
-}
-
-.decline-btn:hover {
-  background: #eb3738 !important;
-  color: #fff;
-}
-
-.decline-btn,
-.accept-btn {
-  font-size: 14px;
-  line-height: 16.94px;
-  border-radius: 0.5rem;
-} */
 
 .schedule__group-box {
   @apply flex justify-center items-center border border-solid rounded-2xl w-9/12 py-3 ml-3;
@@ -135,4 +116,16 @@
 
 abbr {
   text-decoration: none !important;
+}
+
+/* dropdown */
+.dropdown:focus-within .dropdown-menu {
+  opacity: 1;
+  transform: translate(0) scale(1);
+  visibility: visible;
+}
+
+.meeting__group-container:hover .meeting__group-btn {
+  display: block;
+  background: #fff;
 }
