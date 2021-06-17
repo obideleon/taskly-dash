@@ -19,7 +19,7 @@ const Main = () => {
           <div className="header__container">
             <Header />
           </div>
-          <div className="top-info__container ml-16 grid grid-cols-1">
+          <div className="top-info__container md:ml-16 grid grid-cols-1">
             <div className="meeting-list__wrapper w-full pr-4 lg:pr-10">
               <Heading name="Meeting List" />
               <div class="meeting__participants-container mt-3 gap-x-1 grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4">
@@ -50,7 +50,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className="bottom-info__container ml-16 grid grid-cols-1">
+          <div className="bottom-info__container md:ml-16 grid grid-cols-1">
             <div className="sched__container grid w-full grid-cols-1 2xl:grid-cols-2 md:mt-5 lg:pr-10 2xl:space-x-10">
               {/* Daily Sched */}
 
@@ -64,24 +64,28 @@ const Main = () => {
                       time="08:00 AM - 09:00 AM"
                       bgColor="bg-blue-200"
                       borderColor="text-blue-200"
+                      extra="xl:ml-72"
                     />
                     <ScheduleCard
                       name="Usability Testing"
                       time="09:30 AM -10:30 AM"
                       bgColor="bg-orange"
                       borderColor="text-orange"
+                      extra="xl:ml-10"
                     />
                     <ScheduleCard
                       name="Office Meeting"
                       time="11:20 AM -12:20 AM"
                       bgColor="bg-purple"
                       borderColor="text-purple"
+                      extra="xl:ml-72"
                     />
                     <ScheduleCard
                       name="Client Briefing"
                       time="12:00 AM - 14:00 AM"
                       bgColor="bg-green"
                       borderColor="text-green"
+                      extra="xl:ml-10"
                     />
                   </div>
                 </div>
@@ -130,16 +134,85 @@ const Main = () => {
                 name="Aseif Rahman"
                 position="Creative Director"
                 pic="./img/dp1.jpg"
+                display="block"
               />
               <TeamCard
                 name="Lexy Sanz"
                 position="UX Designer"
                 pic="./img/dp2.jpg"
+                display="block"
               />
               <TeamCard
                 name="Kraul Brown"
                 position="UI Designer"
                 pic="./img/dp3.jpg"
+                display="block"
+              />
+              <TeamCard
+                name="Aseif Rahman"
+                position="Creative Director"
+                pic="./img/dp1.jpg"
+                display="2xl:hidden"
+              />
+              <TeamCard
+                name="Aseif Rahman"
+                position="Creative Director"
+                pic="./img/dp1.jpg"
+                display="2xl:hidden"
+              />
+              <TeamCard
+                name="Aseif Rahman"
+                position="Creative Director"
+                pic="./img/dp1.jpg"
+                display="2xl:hidden"
+              />
+              <TeamCard
+                name="Aseif Rahman"
+                position="Creative Director"
+                pic="./img/dp1.jpg"
+                display="2xl:hidden"
+              />
+              <TeamCard
+                name="Aseif Rahman"
+                position="Creative Director"
+                pic="./img/dp1.jpg"
+                display="2xl:hidden"
+              />
+              <TeamCard
+                name="Aseif Rahman"
+                position="Creative Director"
+                pic="./img/dp1.jpg"
+                display="2xl:hidden"
+              />
+              <TeamCard
+                name="Aseif Rahman"
+                position="Creative Director"
+                pic="./img/dp1.jpg"
+                display="2xl:hidden"
+              />
+              <TeamCard
+                name="Aseif Rahman"
+                position="Creative Director"
+                pic="./img/dp1.jpg"
+                display="2xl:hidden"
+              />
+              <TeamCard
+                name="Aseif Rahman"
+                position="Creative Director"
+                pic="./img/dp1.jpg"
+                display="2xl:hidden"
+              />
+              <TeamCard
+                name="Aseif Rahman"
+                position="Creative Director"
+                pic="./img/dp1.jpg"
+                display="2xl:hidden"
+              />
+              <TeamCard
+                name="Aseif Rahman"
+                position="Creative Director"
+                pic="./img/dp1.jpg"
+                display="2xl:hidden"
               />
             </div>
             <TeamBlueCard />

@@ -3,7 +3,7 @@ import { BriefcaseIcon } from "@heroicons/react/solid";
 const ScheduleCard = (props) => {
   return (
     <div
-      className={`schedule__group-box mb-5 2xl:mb-8 2xl:ml-10 ${props.borderColor}`}
+      className={`schedule__group-box mb-5 2xl:mb-8 ${props.borderColor} ${props.extra}`}
     >
       <div className={`sched-pic ${props.bgColor}`}>
         <BriefcaseIcon className="text-white-100 w-5 h-5" />
