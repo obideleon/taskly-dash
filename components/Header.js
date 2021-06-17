@@ -3,7 +3,7 @@ import { SearchIcon } from "@heroicons/react/outline";
 const Header = () => {
   return (
     <div className="header__container flex flex-row lg:pr-20">
-      <div class="greeting__container flex flex-col px-6 m-10 mb-6">
+      <div class="greeting__container flex flex-col md:px-6 m-10 mb-6">
         <h1 class="greeting__title text-gray font-bold text-2xl">
           Good Morning, Emilia S.
         </h1>

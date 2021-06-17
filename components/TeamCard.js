@@ -3,7 +3,9 @@ import { VideoCameraIcon } from "@heroicons/react/solid";
 
 const TeamCard = (props) => {
   return (
-    <div className="meeting-team__profile-container flex flex-row mb-4">
+    <div
+      className={`meeting-team__profile-container flex flex-row mb-4 ${props.display}`}
+    >
       <div className="meeting-team__profile-info-container flex flex-row">
         <img
           src={props.pic}

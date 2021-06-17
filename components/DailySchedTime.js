@@ -8,6 +8,7 @@ const DailySchedTime = () => {
       <p class="time">12:00</p>
       <p class="time">13:00</p>
       <p class="time">14:00</p>
+      <p class="time">15:00</p>
     </div>
   );
 };

@@ -34,48 +34,19 @@
   line-height: 120%;
   z-index: -1; /* Allow tooltips on top */
 }
+
 /* jani meeting list */
-.greeting__title {
-  font-size: 24px;
-}
-
-.greeting__description {
-  font-size: 14px;
-}
-
-.meeting__title {
-  font-size: 20px;
-}
-
 .meeting__title-container,
 .header__container {
   justify-content: space-between;
 }
-.meeting__schedule {
-  font-size: 14px;
-}
 
 .meeting__group-container {
-  @apply flex flex-col justify-center items-center rounded-xl bg-white lg:-mr-14 w-64 h-40 mt-20;
+  @apply flex flex-col justify-center items-center rounded-xl bg-white lg:-mr-14 w-64 h-40;
 }
 
 .meeting-group-icon {
   @apply flex justify-center items-center w-12 h-12 rounded-xl mr-3;
-}
-
-.meeting__name {
-  font-size: 16px;
-  line-height: 19px;
-}
-
-.meeting__description {
-  font-size: 14px;
-  line-height: 16.94px;
-}
-
-.meeting__group-time {
-  font-size: 12px;
-  line-height: 14.52px;
 }
 
 /* .decline-btn {
@@ -98,42 +69,70 @@
 } */
 
 .schedule__group-box {
-  @apply ml-5 flex flex-row justify-center items-center border border-solid rounded-2xl p-3;
+  @apply flex justify-center items-center border border-solid rounded-2xl w-9/12 py-3 ml-3;
 }
 
 .sched-pic {
   @apply p-2 rounded-full flex flex-row justify-center items-center mr-3 ml-2;
 }
 
-.sched__name {
-  font-size: 14px;
-}
-
-.sched__description {
-  font-size: 12px;
-}
-
 .time {
-  @apply text-gray-50 mb-10;
-  font-size: 14px;
-}
-
-.task-specs-title {
-  font-size: 20px;
-}
-
-.task-specs-description {
-  font-size: 16px;
+  @apply text-gray-50 mb-8 md:mb-5 2xl:mb-10;
 }
 
 .meeting-team__profile-container {
   justify-content: space-between;
 }
 
-.meeting-team__profile-name {
-  font-size: 16px;
+/* calendar */
+.Sample input,
+.Sample button {
+  font: inherit;
+}
+.Sample header {
+  background-color: #323639;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: white;
+}
+.Sample header h1 {
+  font-size: inherit;
+  margin: 0;
+}
+.Sample__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 10px 0;
+  padding: 10px;
+}
+.Sample__container > * > * {
+  margin: 10px;
+}
+.Sample__container__content {
+  display: flex;
+  max-width: 100%;
+  flex-basis: 420px;
+  flex-direction: column;
+  flex-grow: 100;
+  align-items: stretch;
+  padding-top: 1em;
+}
+.Sample__container__content .react-calendar {
+  margin: 0 auto;
 }
 
-.meeting-team__profile-description {
-  font-size: 14px;
+.react-calendar {
+  width: 100% !important;
+  border: none !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+.react-calendar__title:active {
+  @apply bg-blue-200 text-white rounded-xl !important;
+}
+
+abbr {
+  text-decoration: none !important;
 }

@@ -3,7 +3,7 @@ import { ChevronDownIcon } from "@heroicons/react/solid";
 
 const AsideHeading = (props) => {
   return (
-    <div className="aside-heading__container flex space-x-64 2xl:space-x-96 items-center fixed">
+    <div className="aside-heading__container flex space-x-60 2xl:space-x-96 items-center">
       <BellIcon className="w-6 h-6 text-gray-50" />
 
       <div className="aside-profile items-center flex">
