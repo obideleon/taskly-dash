@@ -37,7 +37,7 @@ const TaskChart = (props) => {
         20 hours{" "}
         <span className="text-gray-50 font-normal">call on this week.</span>
       </p>
-      <Line data={data} width={400} height={400} />
+      <Line data={data} width={100} height={100} />
     </div>
   );
 };
