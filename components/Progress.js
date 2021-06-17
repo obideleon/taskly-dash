@@ -1,7 +1,7 @@
 import ProgressCard from "./ProgressCard";
 
 const Progress = () => (
-  <div className="w-96 p-6 border border-white-100 rounded-xl shadow-sm">
+  <div className="w-96 p-6 ">
     <div className="flex items-center justify-between font-medium">
       <h2 className="text-base">In Progress</h2>
       <p className="text-xs text-blue cursor-pointer">Show all</p>

@@ -2,6 +2,7 @@ import { ChevronDownIcon } from "@heroicons/react/outline";
 import { Bar } from "react-chartjs-2";
 
 const options = {
+  responsive: true,
   plugins: {
     legend: {
       display: false,
@@ -58,10 +59,12 @@ const data = {
 };
 
 const BarChart = () => (
-  <div className="w-full max-w-4xl p-6 border border-white-100 rounded-xl shadow-sm">
+  <div className="w-full mt-10 p-6">
     <div className="flex items-center">
-      <div className="w-7/12">Your Activities</div>
-      <div className="flex w-5/12 justify-between">
+      <div className="w-3/12 sm:w-7/12 lg:w-9/12">
+        <h2 className="sm:text-base text-xs text-gray-100">Your Activities</h2>
+      </div>
+      <div className="flex w-9/12 sm:w-5/12 lg:w-3/12 justify-evenly sm:justify-between">
         <div className="flex">
           <div className="flex items-center mr-6">
             <div className="w-2 h-2 bg-blue-50 rounded-full"></div>

@@ -16,16 +16,16 @@ const RankCard = ({
       />
       <span className="text-sm font-medium text-gray-100">{name}</span>
     </td>
-    <td className="text-center">
+    <td className="text-center hidden sm:table-cell">
       <p className="text-sm text-gray-100">{rank}</p>
     </td>
-    <td className="text-center">
+    <td className="text-center hidden sm:table-cell">
       <p className="text-sm text-gray-100">{task}</p>
     </td>
-    <td className="text-center">
+    <td className="text-center hidden sm:table-cell">
       <p className="text-sm text-gray-100">{hours}</p>
     </td>
-    <td className="text-center">
+    <td className="text-center hidden sm:table-cell">
       <p
         className={`text-sm font-medium ${
           Number(score) > 0 ? "text-blue" : "text-orange"

@@ -42,11 +42,8 @@ const Page = () => (
         crossOrigin="anonymous"
       />
     </Head>
-    <div>
-      {/* <Nav /> */}
-      {/* <Main /> */}
-      <BarChart />
-    </div>
+    <Nav />
+    <Main />
   </>
 );
 
