@@ -16,6 +16,92 @@ import StatisticCard from "./StatisticCard";
 import Progress from "./Progress";
 
 const Main = () => {
+  const meetingTeam = [
+    {
+      name: "jani",
+      position: "frontend dev",
+      pic: "img/dp1.jpg",
+      display: "block",
+    },
+    {
+      name: "jani",
+      position: "frontend dev",
+      pic: "img/dp1.jpg",
+      display: "block",
+    },
+    {
+      name: "jani",
+      position: "frontend dev",
+      pic: "img/dp1.jpg",
+      display: "block",
+    },
+    {
+      name: "jani",
+      position: "frontend dev",
+      pic: "img/dp1.jpg",
+      display: "2xl:hidden",
+    },
+    {
+      name: "jani",
+      position: "frontend dev",
+      pic: "img/dp1.jpg",
+      display: "2xl:hidden",
+    },
+    {
+      name: "jani",
+      position: "frontend dev",
+      pic: "img/dp1.jpg",
+      display: "2xl:hidden",
+    },
+    {
+      name: "jani",
+      position: "frontend dev",
+      pic: "img/dp1.jpg",
+      display: "2xl:hidden",
+    },
+    {
+      name: "jani",
+      position: "frontend dev",
+      pic: "img/dp1.jpg",
+      display: "2xl:hidden",
+    },
+    {
+      name: "jani",
+      position: "frontend dev",
+      pic: "img/dp1.jpg",
+      display: "2xl:hidden",
+    },
+    {
+      name: "jani",
+      position: "frontend dev",
+      pic: "img/dp1.jpg",
+      display: "2xl:hidden",
+    },
+    {
+      name: "jani",
+      position: "frontend dev",
+      pic: "img/dp1.jpg",
+      display: "2xl:hidden",
+    },
+    {
+      name: "jani",
+      position: "frontend dev",
+      pic: "img/dp1.jpg",
+      display: "2xl:hidden",
+    },
+    {
+      name: "jani",
+      position: "frontend dev",
+      pic: "img/dp1.jpg",
+      display: "2xl:hidden",
+    },
+    {
+      name: "jani",
+      position: "frontend dev",
+      pic: "img/dp1.jpg",
+      display: "2xl:hidden",
+    },
+  ];
   return (
     <div className="main h-screen flex divide-x divide-white-100 px-7 ml-0 sm:ml-5">
       <div className="mid-section w-screen 2xl:w-9/12">
@@ -26,7 +112,7 @@ const Main = () => {
           <div className="top-info__container md:ml-16 grid grid-cols-1">
             <div className="meeting-list__wrapper w-full pr-4 lg:pr-10">
               <Heading name="Meeting List" />
-              <div class="meeting__participants-container mt-3 gap-x-1 grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4">
+              <div class="meeting__participants-container mt-3 gap-x-3 grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4">
                 <MeetingCard
                   name="Team UI/UX"
                   description="Weekly team meeting"
@@ -98,7 +184,7 @@ const Main = () => {
               {/* Task History */}
               <div className="task-history__wrapper">
                 <Heading name="Task History" />
-                <div className="task-history__cards mt-10 grid grid-cols-1 md:grid-cols-2">
+                <div className="task-history__cards mt-10 gap-2 grid grid-cols-1 md:grid-cols-2">
                   <TaskCard
                     time="20hr"
                     label="Time"
@@ -130,19 +216,23 @@ const Main = () => {
           </div>
           <div className="aside-top-info__container">
             <div>
-              <StatisticCard />
+              <AsideCalendar />
             </div>
           </div>
           <div className="aside-bottom-info__container">
             <TeamHeading />
             <div className="aside__profile-card">
-              <TeamCard
-                name="Aseif Rahman"
-                position="Creative Director"
-                pic="./img/dp1.jpg"
-                display="block"
-              />
-              <TeamCard
+              {meetingTeam.map((x) => {
+                return (
+                  <TeamCard
+                    name={x.name}
+                    position={x.position}
+                    pic={x.pic}
+                    display={x.display}
+                  />
+                );
+              })}
+              {/* <TeamCard
                 name="Lexy Sanz"
                 position="UX Designer"
                 pic="./img/dp2.jpg"
@@ -219,7 +309,7 @@ const Main = () => {
                 position="Creative Director"
                 pic="./img/dp1.jpg"
                 display="2xl:hidden"
-              />
+              /> */}
             </div>
             <TeamBlueCard />
           </div>
