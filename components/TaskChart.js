@@ -2,10 +2,10 @@ import { Line } from "react-chartjs-2";
 
 const TaskChart = (props) => {
   const data = {
-    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    labels: ["Mon", "Tue", "Wed", "Thurs", "Fri", "Sat", "Sun"],
     datasets: [
       {
-        label: "My First dataset",
+        label: "Number of Meetings per Day",
         fill: false,
         lineTension: 0.1,
         backgroundColor: "rgba(75,192,192,0.4)",
@@ -23,13 +23,13 @@ const TaskChart = (props) => {
         pointHoverBorderWidth: 2,
         pointRadius: 1,
         pointHitRadius: 10,
-        data: [65, 59, 80, 81, 56, 55, 40],
+        data: [1, 3, 2, 4, 3, 2, 3],
       },
     ],
   };
 
   return (
-    <div>
+    <div className="w-80 h-80 mt-5">
       <h2 className="chart-title text-gray text-xl font-bold">
         Attended Meeting
       </h2>
@@ -37,7 +37,7 @@ const TaskChart = (props) => {
         20 hours{" "}
         <span className="text-gray-50 font-normal">call on this week.</span>
       </p>
-      <Line data={data} width={100} height={100} />
+      <Line data={data} width={400} height={400} />
     </div>
   );
 };

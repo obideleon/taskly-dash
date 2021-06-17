@@ -13,7 +13,7 @@ import AsideCalendar from "../components/AsideCalendar";
 
 const Main = () => {
   return (
-    <div className="main h-[calc(100vw - 5rem)] flex pl-7 ml-0 sm:ml-5">
+    <div className="main h-screen flex divide-x divide-white-100 px-7 ml-0 sm:ml-5">
       <div className="mid-section w-screen 2xl:w-9/12">
         <div className="mid-section__container grid grid-cols-1">
           <div className="header__container">
@@ -115,7 +115,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-      <aside className="aside-section w-4/12 shadow p-10 hidden lg:block">
+      <aside className="aside-section w-4/12 p-10 hidden lg:block">
         <div className="aside-section__container flex flex-col">
           <div className="aside-section-header__container">
             <AsideHeading />
