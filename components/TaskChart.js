@@ -29,11 +29,11 @@ const TaskChart = (props) => {
   };
 
   return (
-    <div className="w-80 h-80 mt-5">
-      <h2 className="chart-title text-gray text-xl font-bold">
+    <div className="w-80 2xl:w-80 mt-10 2xl:mt-5">
+      <h2 className="chart-title text-gray text-xl font-bold mb-1">
         Attended Meeting
       </h2>
-      <p className="chart-description text-sm text-green font-medium">
+      <p className="chart-description text-sm text-green font-medium mb-10 2xl:mb-5">
         20 hours{" "}
         <span className="text-gray-50 font-normal">call on this week.</span>
       </p>

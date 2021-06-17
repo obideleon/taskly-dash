@@ -51,7 +51,7 @@ const Main = () => {
             </div>
           </div>
           <div className="bottom-info__container ml-16 grid grid-cols-1">
-            <div className="sched__container grid w-full grid-cols-1 lg:grid-cols-2 md:mt-5 lg:pr-10 2xl:space-x-10">
+            <div className="sched__container grid w-full grid-cols-1 2xl:grid-cols-2 md:mt-5 lg:pr-10 2xl:space-x-10">
               {/* Daily Sched */}
 
               <div className="daily-sched__wrapper pr-5">

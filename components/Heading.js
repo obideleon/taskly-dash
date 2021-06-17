@@ -2,7 +2,9 @@ import { ChevronDownIcon } from "@heroicons/react/solid";
 
 const Heading = (props) => {
   return (
-    <div className={`meeting__title-container flex flex-row items-center`}>
+    <div
+      className={`meeting__title-container flex flex-row items-center mt-5 2xl:mt-0`}
+    >
       <h2 className="meeting__title text-gray text-xl font-bold">
         {props.name}
       </h2>
