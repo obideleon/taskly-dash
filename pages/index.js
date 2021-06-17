@@ -42,6 +42,7 @@ const Page = () => (
         crossOrigin="anonymous"
       />
     </Head>
+<<<<<<< HEAD
     <div>
       <Nav />
       <Main />
@@ -52,6 +53,8 @@ const Page = () => (
       {/* <Main /> */}
       {/* <BarChart /> */}
     </div>
+=======
+>>>>>>> ab79badecb51c8562307746c8669bef605134198
   </>
 );
 

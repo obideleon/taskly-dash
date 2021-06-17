@@ -10,6 +10,10 @@ import TeamHeading from "../components/TeamHeading";
 import TeamBlueCard from "../components/TeamBlueCard";
 import TaskChart from "../components/TaskChart";
 import AsideCalendar from "../components/AsideCalendar";
+import BarChart from "../components/BarChart";
+import Rank from "./Rank";
+import StatisticCard from "./StatisticCard";
+import Progress from "./Progress";
 
 const Main = () => {
   return (
@@ -125,7 +129,9 @@ const Main = () => {
             <AsideHeading />
           </div>
           <div className="aside-top-info__container">
-            <AsideCalendar />
+            <div>
+              <StatisticCard />
+            </div>
           </div>
           <div className="aside-bottom-info__container">
             <TeamHeading />

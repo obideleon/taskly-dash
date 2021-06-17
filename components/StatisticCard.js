@@ -16,7 +16,7 @@ const data = {
 
 const StatisticCard = () => {
   return (
-    <div className="w-80 p-6 border border-white-100 rounded-xl shadow-sm">
+    <div className="w-80 p-6">
       <div className="flex justify-between mb-8">
         <p className="text-base font-medium">Statistic</p>
         <DotsHorizontalIcon className="h-6 w-6 cursor-pointer text-blue" />

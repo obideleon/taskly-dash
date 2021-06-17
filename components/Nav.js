@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <div
       id="sidebar"
-      className="h-screen w-20 menu bg-white text-white px-6 flex items-start static fixed shadow hidden md:block"
+      className="h-screen w-20 menu bg-white text-white px-6 flex items-start static fixed shadow hidden sm:flex"
     >
       <ul className="list-reset my-28">
         <li className="my-2 md:my-0 text-gray-50 hover:text-blue-200">
