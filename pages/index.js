@@ -4,6 +4,7 @@ import Main from "../components/Main";
 import Progress from "../components/Progress";
 import StatisticCard from "../components/StatisticCard";
 import Rank from "../components/Rank";
+import BarChart from "../components/BarChart";
 
 const Page = () => (
   <>
@@ -44,9 +45,7 @@ const Page = () => (
     <div>
       {/* <Nav /> */}
       {/* <Main /> */}
-      <Progress />
-      <StatisticCard />
-      <Rank />
+      <BarChart />
     </div>
   </>
 );
