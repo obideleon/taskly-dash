@@ -4,7 +4,9 @@ const Rank = () => {
   return (
     <div className="p-6 w-full">
       <div className="flex items-center justify-between">
-        <h2 className="text-base font-medium">Community Ranking</h2>
+        <h2 className="sm:text-base text-xs text-gray-100">
+          Community Ranking
+        </h2>
         <p className="text-xs font-medium  text-blue cursor-pointer">
           Show All
         </p>
