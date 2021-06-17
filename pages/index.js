@@ -42,11 +42,11 @@ const Page = () => (
       />
     </Head>
     <div>
-      {/* <Nav /> */}
-      {/* <Main /> */}
-      <Progress />
+      <Nav />
+      <Main />
+      {/* <Progress />
       <StatisticCard />
-      <Rank />
+      <Rank /> */}
     </div>
   </>
 );
