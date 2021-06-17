@@ -16,7 +16,7 @@ const RankCard = ({
       />
       <span className="text-sm font-medium text-gray-100">{name}</span>
     </td>
-    <td className="text-center hidden sm:table-cell">
+    <td className="text-center">
       <p className="text-sm text-gray-100">{rank}</p>
     </td>
     <td className="text-center hidden sm:table-cell">

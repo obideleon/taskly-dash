@@ -16,7 +16,7 @@ const Rank = () => {
               <th className="text-gray-50 text-xs font-normal text-left pb-2 w-2/12">
                 Member Profile
               </th>
-              <th className="text-gray-50 text-xs font-normal hidden sm:table-cell text-center pb-2 w-1/12">
+              <th className="text-gray-50 text-xs font-normal text-center pb-2 w-1/12">
                 Rank
               </th>
               <th className="text-gray-50 text-xs font-normal hidden sm:table-cell text-center pb-2 w-1/12">
