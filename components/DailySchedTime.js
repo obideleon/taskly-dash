@@ -1,6 +1,6 @@
 const DailySchedTime = () => {
   return (
-    <div class="time-container flex flex-col ml-24">
+    <div class="time-container flex flex-col">
       <p class="time">08:00</p>
       <p class="time">09:00</p>
       <p class="time">10:00</p>

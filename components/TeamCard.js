@@ -11,10 +11,10 @@ const TeamCard = (props) => {
           className="meeting-team__profile-pic w-12 h-12 rounded-full mr-4"
         />
         <div className="meeting-team__profile-name-container flex flex-col mt-1">
-          <h3 className="meeting-team__profile-name text-gray font-bold">
+          <h3 className="meeting-team__profile-name text-gray font-bold text-base">
             {props.name}
           </h3>
-          <p className="meeting-team__profile-description text-gray-50 mt-1">
+          <p className="meeting-team__profile-description text-gray-50 text-sm mt-1">
             {props.position}
           </p>
         </div>
