@@ -64,28 +64,28 @@ const Main = () => {
                       time="08:00 AM - 09:00 AM"
                       bgColor="bg-blue-200"
                       borderColor="text-blue-200"
-                      extra="xl:ml-72"
+                      extra="md:ml-72"
                     />
                     <ScheduleCard
                       name="Usability Testing"
                       time="09:30 AM -10:30 AM"
                       bgColor="bg-orange"
                       borderColor="text-orange"
-                      extra="xl:ml-10"
+                      extra="md:ml-10"
                     />
                     <ScheduleCard
                       name="Office Meeting"
                       time="11:20 AM -12:20 AM"
                       bgColor="bg-purple"
                       borderColor="text-purple"
-                      extra="xl:ml-72"
+                      extra="md:ml-72"
                     />
                     <ScheduleCard
                       name="Client Briefing"
                       time="12:00 AM - 14:00 AM"
                       bgColor="bg-green"
                       borderColor="text-green"
-                      extra="xl:ml-10"
+                      extra="md:ml-10"
                     />
                   </div>
                 </div>

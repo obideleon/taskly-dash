@@ -50,7 +50,7 @@ const Page = () => (
       <Rank /> */}
       {/* <Nav /> */}
       {/* <Main /> */}
-      <BarChart />
+      {/* <BarChart /> */}
     </div>
   </>
 );

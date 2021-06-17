@@ -4,7 +4,7 @@ import { UserGroupIcon } from "@heroicons/react/solid";
 const TaskCard = (props) => {
   return (
     <div
-      className={`schedule__task-time flex justify-center items-center w-40 h-28 rounded-xl ${props.bgCard}`}
+      className={`schedule__task-time flex justify-center items-center h-28 rounded-xl ${props.bgCard}`}
     >
       <div
         className={`task-icon-container w-10 h-10 mr-3 rounded-xl ${props.bgBox}`}
