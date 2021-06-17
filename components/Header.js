@@ -1,4 +1,5 @@
 import { SearchIcon } from "@heroicons/react/outline";
+import React from "react";
 
 const Header = () => {
   return (

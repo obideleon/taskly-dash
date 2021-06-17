@@ -1,3 +1,5 @@
+import React from "react";
+
 const DailySchedTime = () => {
   return (
     <div class="time-container flex flex-col">

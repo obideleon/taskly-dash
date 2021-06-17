@@ -1,4 +1,5 @@
 import RankCard from "./RankCard";
+import React from "react";
 
 const Rank = () => {
   return (

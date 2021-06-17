@@ -1,4 +1,5 @@
 import ProgressBar from "@ramonak/react-progress-bar";
+import React from "react";
 
 const TeamBlueCard = (props) => {
   return (

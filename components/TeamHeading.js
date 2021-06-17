@@ -1,4 +1,6 @@
 import { BellIcon } from "@heroicons/react/outline";
+import React from "react";
+
 const TeamHeading = () => {
   return (
     <div className="team-heading__container flex mb-8 mt-8 space-x-32 2xl:space-x-72">

@@ -1,6 +1,7 @@
 import { BellIcon } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 import Dropdown from "./Dropdown";
+import React from "react";
 
 const AsideHeading = (props) => {
   return (
