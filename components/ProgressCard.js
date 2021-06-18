@@ -1,3 +1,5 @@
+import React from "react";
+
 const ProgressCard = ({ width, bgColor, taskName }) => {
   return (
     <div className="flex w-full mt-8">

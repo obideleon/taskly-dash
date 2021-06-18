@@ -1,5 +1,6 @@
 import { Doughnut } from "react-chartjs-2";
 import { DotsHorizontalIcon } from "@heroicons/react/outline";
+import React from "react";
 
 const options = {
   cutout: 70,

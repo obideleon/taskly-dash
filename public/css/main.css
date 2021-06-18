@@ -46,7 +46,7 @@
 }
 
 .meeting-group-icon {
-  @apply flex justify-center items-center w-12 h-12 ml-14 mr-2 rounded-xl xl:ml-28 2xl:ml-14;
+  @apply flex justify-center items-center w-12 h-12 ml-5 mr-2 rounded-xl;
 }
 
 .schedule__group-box {
@@ -128,4 +128,8 @@ abbr {
 .meeting__group-container:hover .meeting__group-btn {
   display: block;
   background: #fff;
+}
+
+.meeting__group-container:hover .meeting__group-time {
+  color: #fff;
 }

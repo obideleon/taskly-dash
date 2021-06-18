@@ -14,6 +14,7 @@ import BarChart from "../components/BarChart";
 import Rank from "./Rank";
 import StatisticCard from "./StatisticCard";
 import Progress from "./Progress";
+import React from "react";
 
 const Main = () => {
   const meetingTeam = [

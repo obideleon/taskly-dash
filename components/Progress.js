@@ -1,4 +1,5 @@
 import ProgressCard from "./ProgressCard";
+import React from "react";
 
 const Progress = () => (
   <div className="w-full mx-auto p-6 mt-10">
