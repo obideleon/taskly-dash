@@ -5,7 +5,7 @@ import React from "react";
 
 const AsideHeading = (props) => {
   return (
-    <div className="aside-heading__container flex space-x-32 2xl:space-x-80 items-center">
+    <div className="aside-heading__container flex space-x-48 2xl:space-x-80 items-center">
       <BellIcon className="w-6 h-6 text-gray-50" />
 
       <div className="aside-profile items-center flex">
