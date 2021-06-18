@@ -17,6 +17,7 @@ const Nav = () => {
     >
       <ul className="list-reset my-28 w-full space-y-64">
         <div className="top-menu">
+          <img src="./img/taskly-logo.jpg" alt="logo" className="w-5 h-5" />
           <li className="my-2 md:my-0 text-gray border-white hover:border-blue-200 border-l-4 flex justify-center">
             <a
               href="#"
