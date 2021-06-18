@@ -7,6 +7,7 @@ import {
   CogIcon,
   LogoutIcon,
 } from "@heroicons/react/outline";
+import React from "react";
 
 const Nav = () => {
   return (

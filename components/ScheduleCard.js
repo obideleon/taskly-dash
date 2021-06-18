@@ -1,4 +1,5 @@
 import { BriefcaseIcon } from "@heroicons/react/solid";
+import React from "react";
 
 const ScheduleCard = (props) => {
   return (

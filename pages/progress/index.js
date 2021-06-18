@@ -5,6 +5,7 @@ import Progress from "../../components/Progress";
 import BarChart from "../../components/BarChart";
 import Rank from "../../components/Rank";
 import Nav from "../../components/Nav";
+import React from "react";
 
 const index = () => {
   return (

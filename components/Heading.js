@@ -1,4 +1,5 @@
 import { ChevronDownIcon } from "@heroicons/react/solid";
+import React from "react";
 
 const Heading = (props) => {
   return (

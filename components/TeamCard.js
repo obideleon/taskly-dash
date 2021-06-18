@@ -1,5 +1,6 @@
 import { PhoneIcon } from "@heroicons/react/solid";
 import { VideoCameraIcon } from "@heroicons/react/solid";
+import React from "react";
 
 const TeamCard = (props) => {
   return (
