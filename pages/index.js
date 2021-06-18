@@ -27,9 +27,11 @@ const index = () => {
                   <a>Create an account</a>
                 </Link>
               </p>
-              <button className="mt-5 tracking-wide font-semibold bg-blue text-white-100 w-full py-4 rounded-lg hover:bg-blue-200 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
-                Log in
-              </button>
+              <Link href="/dashboard">
+                <button className="mt-5 tracking-wide font-semibold bg-blue text-white-100 w-full py-4 rounded-lg hover:bg-blue-200 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
+                  Log in
+                </button>
+              </Link>
             </div>
           </div>
         </div>
