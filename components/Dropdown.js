@@ -32,7 +32,7 @@ const Dropdown = () => {
               </div>
               <div class="py-1">
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   tabindex="0"
                   class="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left"
                   role="menuitem"
@@ -40,7 +40,7 @@ const Dropdown = () => {
                   Profile
                 </a>
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   tabindex="1"
                   class="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left"
                   role="menuitem"
@@ -48,7 +48,7 @@ const Dropdown = () => {
                   Tasks
                 </a>
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   tabindex="2"
                   class="text-gray-400 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left"
                   role="menuitem"
@@ -56,7 +56,7 @@ const Dropdown = () => {
                   Contact
                 </a>
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   tabindex="2"
                   class="text-gray-400 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left"
                   role="menuitem"
