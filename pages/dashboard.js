@@ -176,8 +176,8 @@ const dashboard = () => {
 
   return (
     <>
-      <TabNav />
-      <Nav />
+      <TabNav activeNav={"main"} />
+      <Nav activeNav={"main"} />
       <div className="main h-screen flex divide-x divide-white-100 px-7 ml-0 sm:ml-5">
         <div className="mid-section w-screen 2xl:w-9/12">
           <div className="mid-section__container grid grid-cols-1">

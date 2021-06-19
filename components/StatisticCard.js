@@ -9,7 +9,7 @@ const options = {
 const data = {
   datasets: [
     {
-      data: [55, 45],
+      data: [55, 73],
       backgroundColor: ["#FF562D", "#2C71FF"],
     },
   ],
