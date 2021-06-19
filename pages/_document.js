@@ -27,7 +27,7 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
             media="print"
-            onload="this.media='all'"
+            onLoad="this.media='all'"
           />
 
           <noscript>
@@ -48,7 +48,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body>
+        <body className="font-sans">
           <Main />
           <NextScript />
         </body>

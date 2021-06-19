@@ -12,7 +12,7 @@ const ProgressCard = ({ width, bgColor, taskName }) => {
       </div>
       <div className="w-full">
         <div className="flex justify-between font-medium">
-          <p className="text-sm">{taskName}</p>
+          <p className="font-normal sm:text-sm text-xs">{taskName}</p>
           <p className="text-xs text-blue-200">{width}%</p>
         </div>
         <div className="relative pt-1 mt-2">

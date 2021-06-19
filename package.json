@@ -26,7 +26,11 @@
     "react-dom": "^17.0.2",
     "react-dropdown": "^1.9.2",
     "react-helmet": "^6.1.0",
+<<<<<<< HEAD
     "react-toastify": "^7.0.4"
+=======
+    "react-table": "^7.7.0"
+>>>>>>> 32530dbf6a8e8b696d029c93f34e510f46337c74
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
