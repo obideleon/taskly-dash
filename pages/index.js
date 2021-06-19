@@ -13,13 +13,13 @@ const index = () => {
           <div className="w-full flex-1 mt-8">
             <div className="mx-auto max-w-sm">
               <input
-                className="w-full px-8 py-4 rounded-lg border border-white-100 placeholder-gray-50 text-sm focus:outline-none focus:border-gray-50 focus:bg-white"
+                className="w-full px-8 py-4 rounded-lg border border-white-100 placeholder-gray-50 text-sm focus:outline-none  focus:bg-white"
                 type="email"
                 placeholder="Email"
                 required
               />
               <input
-                className="w-full px-8 py-4 rounded-lg border border-white-100 placeholder-gray-50 text-sm focus:outline-none focus:border-gray-50 focus:bg-white mt-5"
+                className="w-full px-8 py-4 rounded-lg border border-white-100 placeholder-gray-50 text-sm focus:outline-none  focus:bg-white mt-5"
                 type="password"
                 placeholder="Password"
                 required

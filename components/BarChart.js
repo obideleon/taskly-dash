@@ -80,7 +80,7 @@ const BarChart = () => (
         </div>
         <div className="relative inline-flex cursor-pointer">
           <ChevronDownIcon className="w-4 h-4 text-gray-50 absolute top-0 right-0 m-2" />
-          <select className="border border-gray-50 rounded-lg text-gray-50 pl-4 pr-8 py-2 appearance-none text-xs">
+          <select className="border border-gray-50 rounded-lg text-gray-50 pl-4 pr-8 py-2 appearance-none text-xs focus:outline-none">
             <option value="2021">2021</option>
           </select>
         </div>
