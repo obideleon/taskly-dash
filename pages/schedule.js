@@ -10,8 +10,8 @@ import TabNav from "../components/TabNav";
 const schedule = () => {
   return (
     <>
-      <TabNav />
-      <Nav />
+      <TabNav activeNav={"schedule"} />
+      <Nav activeNav={"schedule"} />
       <div className="main h-screen bg-white flex divide-x divide-white-100 sm:px-7 sm:ml-5">
         <div className="mid-section w-screen 2xl:w-9/12">
           <div className="mid-section__container grid grid-cols-1">
