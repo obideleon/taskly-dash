@@ -27,7 +27,7 @@ const StatisticCard = () => {
 
         <div className="chartInner">
           <p className="text-2xl font-bold text-blue">128</p>
-          <p className="text-xs">Total Meeting</p>
+          <p className="text-xs">Task Progress</p>
         </div>
       </div>
       <div className="flex mt-11 justify-evenly">

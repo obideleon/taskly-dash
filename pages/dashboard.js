@@ -1,107 +1,179 @@
 import Nav from "../components/Nav";
 import TabNav from "../components/TabNav";
-import React from "react";
-
+import Header from "../components/Header";
+import Heading from "../components/Heading";
 import MeetingCard from "../components/MeetingCard";
 import ScheduleCard from "../components/ScheduleCard";
-import Heading from "../components/Heading";
-import Header from "../components/Header";
 import DailySchedTime from "../components/DailySchedTime";
 import TaskCard from "../components/TaskCard";
+import TaskChart from "../components/TaskChart";
 import TeamCard from "../components/TeamCard";
 import AsideHeading from "../components/AsideHeading";
+import AsideCalendar from "../components/AsideCalendar";
 import TeamHeading from "../components/TeamHeading";
 import TeamBlueCard from "../components/TeamBlueCard";
-import TaskChart from "../components/TaskChart";
-import AsideCalendar from "../components/AsideCalendar";
+import React from "react";
 
 const dashboard = () => {
   const meetingTeam = [
     {
-      name: "jani",
-      position: "frontend dev",
-      pic: "img/dp1.jpg",
+      name: "Aaseif Rahman",
+      position: "Creative Director",
+      pic: "img/user-1.png",
       display: "block",
     },
     {
-      name: "jani",
-      position: "frontend dev",
-      pic: "img/dp1.jpg",
+      name: "Lexy Sanz",
+      position: "UX Designer",
+      pic: "img/user-2.png",
       display: "block",
     },
     {
-      name: "jani",
-      position: "frontend dev",
-      pic: "img/dp1.jpg",
+      name: "Krawl Brown",
+      position: "UI Designer",
+      pic: "img/user-3.png",
       display: "block",
     },
     {
-      name: "jani",
-      position: "frontend dev",
+      name: "Brian Erjas",
+      position: "Frontend Developer",
+      pic: "img/user-4.png",
+      display: "2xl:hidden",
+    },
+    {
+      name: "Mary Estudillo",
+      position: "UI/UX Designer",
+      pic: "img/user-5.png",
+      display: "2xl:hidden",
+    },
+    {
+      name: "Vince Labastida",
+      position: "Backend Developer",
+      pic: "img/dp3.jpg",
+      display: "2xl:hidden",
+    },
+    {
+      name: "Angelo Soliven",
+      position: "Backend Developer",
+      pic: "img/dp2.jpg",
+      display: "2xl:hidden",
+    },
+    {
+      name: "KJ Caluscusao",
+      position: "Backend Developer",
       pic: "img/dp1.jpg",
       display: "2xl:hidden",
     },
     {
-      name: "jani",
-      position: "frontend dev",
-      pic: "img/dp1.jpg",
+      name: "Cris Awon",
+      position: "Frontend Developer",
+      pic: "img/user-1.png",
       display: "2xl:hidden",
     },
     {
-      name: "jani",
-      position: "frontend dev",
-      pic: "img/dp1.jpg",
+      name: "John Tamargo",
+      position: "Frontend Developer",
+      pic: "img/user-2.png",
       display: "2xl:hidden",
     },
     {
-      name: "jani",
-      position: "frontend dev",
-      pic: "img/dp1.jpg",
+      name: "Josuer Bague",
+      position: "Backend Developer",
+      pic: "img/user-3.png",
       display: "2xl:hidden",
     },
     {
-      name: "jani",
-      position: "frontend dev",
-      pic: "img/dp1.jpg",
+      name: "Robby de Leon",
+      position: "Backend Developer",
+      pic: "img/user-4.png",
       display: "2xl:hidden",
     },
     {
-      name: "jani",
-      position: "frontend dev",
-      pic: "img/dp1.jpg",
-      display: "2xl:hidden",
-    },
-    {
-      name: "jani",
-      position: "frontend dev",
-      pic: "img/dp1.jpg",
-      display: "2xl:hidden",
-    },
-    {
-      name: "jani",
-      position: "frontend dev",
-      pic: "img/dp1.jpg",
-      display: "2xl:hidden",
-    },
-    {
-      name: "jani",
-      position: "frontend dev",
-      pic: "img/dp1.jpg",
-      display: "2xl:hidden",
-    },
-    {
-      name: "jani",
-      position: "frontend dev",
-      pic: "img/dp1.jpg",
-      display: "2xl:hidden",
-    },
-    {
-      name: "jani",
-      position: "frontend dev",
+      name: "James Villeza",
+      position: "Frontend Developer",
       pic: "img/dp1.jpg",
       display: "2xl:hidden",
     },
   ];
+
+  const scheduleCard = [
+    {
+      name: "Team Meeting",
+      time: "08:00 AM - 09:00 AM",
+      bgColor: "bg-blue-200",
+      borderColor: "text-blue-200",
+      extra: "md:ml-72",
+    },
+    {
+      name: "Usability Testing",
+      time: "09:30 AM -10:30 AM",
+      bgColor: "bg-orange",
+      borderColor: "text-orange",
+      extra: "md:ml-10",
+    },
+    {
+      name: "Office Meeting",
+      time: "11:20 AM -12:20 AM",
+      bgColor: "bg-purple",
+      borderColor: "text-purple",
+      extra: "md:ml-72",
+    },
+    {
+      name: "Client Briefing",
+      time: "12:00 AM - 14:00 AM",
+      bgColor: "bg-green",
+      borderColor: "text-green",
+      extra: "md:ml-10",
+    },
+  ];
+
+  const meetingCard = [
+    {
+      name: "Team UI/UX",
+      description: "Weekly team meeting",
+      time: "10:00 - 11:00 AM",
+      bgColor: "bg-blue-200",
+    },
+    {
+      name: "Usability Testing",
+      description: "with Mr. Ferdinand",
+      time: "10:00 - 11:00 AM",
+      bgColor: "bg-orange",
+    },
+    {
+      name: "Offline Meeting",
+      description: "Client from USA",
+      time: "11:20 - 12:20 AM",
+      bgColor: "bg-purple",
+    },
+    {
+      name: "Client Briefing",
+      description: "Weekly team meeting",
+      time: "12:00 - 14:00 AM",
+      bgColor: "bg-blue-200",
+    },
+  ];
+
+  const taskCard = [
+    {
+      time: "20hr",
+      label: "Time",
+      bgCard: "bg-blue-50",
+      bgBox: "bg-blue-100",
+      bgIcon: "text-blue",
+      textColor: "text-blue",
+      icon: "clock",
+    },
+    {
+      time: "250",
+      label: "Meeting",
+      bgCard: "bg-orange-50",
+      bgBox: "bg-orange-100",
+      bgIcon: "text-orange",
+      textColor: "text-orange",
+    },
+  ];
+
   return (
     <>
       <TabNav />
@@ -113,73 +185,42 @@ const dashboard = () => {
               <Header />
             </div>
             <div className="top-info__container md:ml-16 grid grid-cols-1">
-              <div className="meeting-list__wrapper w-full pr-4 lg:pr-10">
+              <div className="meeting-list__wrapper w-full pl-5 pr-4 lg:pr-10">
                 <Heading name="Meeting List" />
                 <div class="meeting__participants-container mt-3 gap-x-3 grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4">
-                  <MeetingCard
-                    name="Team UI/UX"
-                    description="Weekly team meeting"
-                    time="10:00 - 11:00 AM"
-                    bgColor="bg-blue-200"
-                  />
-                  <MeetingCard
-                    name="Usability Testing"
-                    description="with Mr. Ferdinand"
-                    time="10:00 - 11:00 AM"
-                    bgColor="bg-orange"
-                  />
-                  <MeetingCard
-                    name="Offline Meeting"
-                    description="Client from USA"
-                    time="11:20 - 12:20 AM"
-                    bgColor="bg-purple"
-                  />
-                  <MeetingCard
-                    name="Team UI/UX"
-                    description="Weekly team meeting"
-                    time="10:00 - 11:00 AM"
-                    bgColor="bg-blue-200"
-                  />
+                  {meetingCard.map((x) => {
+                    return (
+                      <MeetingCard
+                        name={x.name}
+                        description={x.description}
+                        time={x.time}
+                        bgColor={x.bgColor}
+                      />
+                    );
+                  })}
                 </div>
               </div>
             </div>
             <div className="bottom-info__container md:ml-16 grid grid-cols-1">
-              <div className="sched__container grid w-full grid-cols-1 2xl:grid-cols-2 md:mt-5 lg:pr-10 2xl:space-x-10">
+              <div className="sched__container pl-5 grid w-full grid-cols-1 2xl:grid-cols-2 md:mt-5 lg:pr-10 2xl:space-x-10">
                 {/* Daily Sched */}
 
                 <div className="daily-sched__wrapper pr-5">
-                  <Heading name="Daily Sched" />
+                  <Heading name="Daily Schedule" />
                   <div className="daily-sched-with-time__container flex flex-row mt-10">
                     <DailySchedTime />
                     <div className="daily-sched-cards__container w-80">
-                      <ScheduleCard
-                        name="Team Meeting"
-                        time="08:00 AM - 09:00 AM"
-                        bgColor="bg-blue-200"
-                        borderColor="text-blue-200"
-                        extra="md:ml-72"
-                      />
-                      <ScheduleCard
-                        name="Usability Testing"
-                        time="09:30 AM -10:30 AM"
-                        bgColor="bg-orange"
-                        borderColor="text-orange"
-                        extra="md:ml-10"
-                      />
-                      <ScheduleCard
-                        name="Office Meeting"
-                        time="11:20 AM -12:20 AM"
-                        bgColor="bg-purple"
-                        borderColor="text-purple"
-                        extra="md:ml-72"
-                      />
-                      <ScheduleCard
-                        name="Client Briefing"
-                        time="12:00 AM - 14:00 AM"
-                        bgColor="bg-green"
-                        borderColor="text-green"
-                        extra="md:ml-10"
-                      />
+                      {scheduleCard.map((x) => {
+                        return (
+                          <ScheduleCard
+                            name={x.name}
+                            time={x.time}
+                            bgColor={x.bgColor}
+                            borderColor={x.borderColor}
+                            extra={x.extra}
+                          />
+                        );
+                      })}
                     </div>
                   </div>
                 </div>
@@ -188,23 +229,19 @@ const dashboard = () => {
                 <div className="task-history__wrapper">
                   <Heading name="Task History" />
                   <div className="task-history__cards mt-10 gap-2 grid grid-cols-1 md:grid-cols-2">
-                    <TaskCard
-                      time="20hr"
-                      label="Time"
-                      bgCard="bg-blue-50"
-                      bgBox="bg-blue-100"
-                      bgIcon="text-blue"
-                      textColor="text-blue"
-                      icon="clock"
-                    />
-                    <TaskCard
-                      time="250"
-                      label="Meeting"
-                      bgCard="bg-orange-50"
-                      bgBox="bg-orange-100"
-                      bgIcon="text-orange"
-                      textColor="text-orange"
-                    />
+                    {taskCard.map((x) => {
+                      return (
+                        <TaskCard
+                          time={x.time}
+                          label={x.label}
+                          bgCard={x.bgCard}
+                          bgBox={x.bgBox}
+                          bgIcon={x.bgIcon}
+                          textColor={x.textColor}
+                          icon={x.icon}
+                        />
+                      );
+                    })}
                   </div>
                   <TaskChart />
                 </div>
@@ -241,28 +278,6 @@ const dashboard = () => {
           </div>
         </aside>
       </div>
-
-      {/* //LAYOUT
-    // <div className="main h-[calc(100vw - 5rem)] flex px-7 ml-0 sm:ml-5">
-    //   <div className="mid-section w-screen 2xl:w-8/12">
-    //     <div className="mid-section__container grid grid-cols-1">
-    //       <div className="header__container">
-    //         <Header />
-    //       </div>
-    //       <div className="top-info__container ml-16 grid grid-cols-1"></div>
-    //       <div className="bottom-info__container ml-16 grid grid-cols-1"></div>
-    //     </div>
-    //   </div>
-    //   <aside className="aside-section lg:w-4/12 shadow p-10 hidden xl:block">
-    //     <div className="aside-section__container flex flex-col">
-    //       <div className="aside-section-header__container">
-    //         <AsideHeading />
-    //       </div>
-    //       <div className="aside-top-info__container"></div>
-    //       <div className="aside-bottom-info__container"></div>
-    //     </div>
-    //   </aside>
-    // </div> */}
     </>
   );
 };

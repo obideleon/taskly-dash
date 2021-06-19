@@ -5,11 +5,13 @@ import Progress from "../../components/Progress";
 import BarChart from "../../components/BarChart";
 import Rank from "../../components/Rank";
 import Nav from "../../components/Nav";
+import TabNav from "../../components/TabNav";
 import React from "react";
 
 const index = () => {
   return (
     <>
+      <TabNav />
       <Nav />
       <div className="main h-screen flex divide-x divide-white-100 sm:px-7 sm:ml-5">
         <div className="mid-section w-screen 2xl:w-9/12">

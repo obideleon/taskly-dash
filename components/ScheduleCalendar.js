@@ -5,8 +5,12 @@ import React, { useState } from "react";
 
 const ScheduleCalendar = () => {
   const [events, setEvents] = useState([
-    { title: "nice event", start: new Date() },
-    { title: "nice event", start: new Date() },
+    { title: "Project Design Meeting", start: new Date() },
+    { title: "Mom's birthday", start: new Date(6 / 2 / 21) },
+    { title: "Meeting with Client", start: new Date(6 / 10 / 21) },
+    { title: "Meeting with Investors", start: new Date(6 / 20 / 21) },
+    { title: "Festival", start: new Date(6 / 25 / 21) },
+    { title: "Group dinner", start: new Date(6 / 5 / 21) },
   ]);
   return (
     <div className="calendar__container w-full px-5 py-5 md:pl-0 lg:pr-20">

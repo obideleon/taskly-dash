@@ -31,25 +31,19 @@ const schedule = () => {
             <div className="aside-top-info__container flex">
               <div className="priority-tasks__container bg-white-100 w-full shadow rounded-xl mt-10 p-5 px-6">
                 <ScheduleTaskCards
-                  name="Project Design Meeting"
+                  name="Product Presentation"
+                  time="08:00-09:00"
+                />
+                <ScheduleTaskCards name="Mom's birthday" time="08:00-09:00" />
+                <ScheduleTaskCards
+                  name="Meeting with Client"
                   time="08:00-09:00"
                 />
                 <ScheduleTaskCards
-                  name="Project Design Meeting"
+                  name="Meeting with Investors"
                   time="08:00-09:00"
                 />
-                <ScheduleTaskCards
-                  name="Project Design Meeting"
-                  time="08:00-09:00"
-                />
-                <ScheduleTaskCards
-                  name="Project Design Meeting"
-                  time="08:00-09:00"
-                />
-                <ScheduleTaskCards
-                  name="Project Design Meeting"
-                  time="08:00-09:00"
-                />
+                <ScheduleTaskCards name="Group dinner" time="08:00-09:00" />
               </div>
             </div>
           </div>

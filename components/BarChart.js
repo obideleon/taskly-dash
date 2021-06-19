@@ -63,7 +63,9 @@ const BarChart = () => (
   <div className="w-full mt-5 p-6">
     <div className="flex items-center">
       <div className="w-3/12 sm:w-7/12 lg:w-9/12">
-        <h2 className="sm:text-base text-xs text-gray-100">Your Activities</h2>
+        <h2 className="sm:text-base text-xs text-gray-100">
+          Your Activity Progress
+        </h2>
       </div>
       <div className="flex w-9/12 sm:w-5/12 lg:w-3/12 justify-evenly sm:justify-between">
         <div className="flex">
