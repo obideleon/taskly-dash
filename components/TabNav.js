@@ -42,7 +42,7 @@ const TabNav = ({ activeNav }) => {
           </Link>
         </button>
         <button className="text-gray hover:text-blue-200 py-4 px-6 inline-block border-white hover:border-blue-200 border-b-4 focus:outline-none">
-          <Link href="#">
+          <Link href="/settings">
             <CogIcon className="h-6 w-6 my-2 opacity-80" />
           </Link>
         </button>

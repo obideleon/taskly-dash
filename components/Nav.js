@@ -52,25 +52,20 @@ const Nav = ({ activeNav }) => {
             </a>
           </Link>
         </li>
-<<<<<<< HEAD
-
-        <li className="my-2 md:my-0 text-gray border-white hover:border-blue-200 border-l-4 flex justify-center cursor-pointer">
-=======
         <li
           className={`my-2 md:my-0 text-gray hover:border-blue-200 border-l-4 flex justify-center cursor-pointer ${
             activeNav === "schedule" ? "border-blue-200" : "border-white"
           }`}
         >
->>>>>>> 6681589733a3debff3cc83c083063e789acc5c79
           <Link href="/schedule">
             <a className="py-1 md:py-3 pl-1 align-middle no-underline flex space-x-11">
-              <FolderIcon className="h-6 w-6 my-2 opacity-80" />
+              <ArchiveIcon className="h-6 w-6 my-2 opacity-80" />
             </a>
           </Link>
         </li>
 
         <li className="my-2 md:my-0 text-gray border-white hover:border-blue-200 border-l-4 flex justify-center cursor-pointer">
-          <Link href="#">
+          <Link href="/trash">
             <a
               href="#"
               className="py-1 md:py-3 pl-1 align-middle no-underline flex space-x-10"
@@ -80,7 +75,7 @@ const Nav = ({ activeNav }) => {
           </Link>
         </li>
         <li className="my-2 md:my-0 text-gray border-white hover:border-blue-200 border-l-4 flex justify-center cursor-pointer">
-          <Link href="#">
+          <Link href="/settings">
             <a
               href="#"
               className="py-1 md:py-3 pl-1 align-middle no-underline flex space-x-11"
