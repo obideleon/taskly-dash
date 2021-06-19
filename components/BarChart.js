@@ -60,28 +60,30 @@ const data = {
 };
 
 const BarChart = () => (
-  <div className="w-full mt-5 p-6">
+  <div className="w-full mt-2 p-6">
     <div className="flex items-center">
-      <div className="w-3/12 sm:w-7/12 lg:w-9/12">
-        <h2 className="sm:text-base text-xs text-gray-100">
+      <div className="w-3/12 sm:w-7/12 lg:w-8/12">
+        <h2 className="sm:text-xl text-sm font-medium text-gray">
           Your Activity Progress
         </h2>
       </div>
-      <div className="flex w-9/12 sm:w-5/12 lg:w-3/12 justify-evenly sm:justify-between">
+      <div className="flex w-9/12 sm:w-5/12 lg:w-4/12 justify-evenly sm:justify-between">
         <div className="flex">
           <div className="flex items-center mr-6">
             <div className="w-2 h-2 bg-blue-50 rounded-full"></div>
-            <p className="text-xs ml-2">Theory</p>
+            <p className="sm:text-sm text-xs ml-2">Theory</p>
           </div>
           <div className="flex items-center">
             <div className="w-2 h-2 bg-blue rounded-full"></div>
-            <p className="text-xs ml-2">Practice</p>
+            <p className="sm:text-sm text-xs ml-2">Practice</p>
           </div>
         </div>
         <div className="relative inline-flex cursor-pointer">
           <ChevronDownIcon className="w-4 h-4 text-gray-50 absolute top-0 right-0 m-2" />
-          <select className="border border-gray-50 rounded-lg text-gray-50 pl-4 pr-8 py-2 appearance-none text-xs focus:outline-none">
+          <select className="border border-gray-50 rounded-lg text-gray-50 pl-4 pr-8 py-2 appearance-none text-sm focus:outline-none">
             <option value="2021">2021</option>
+            <option value="2021">2020</option>
+            <option value="2021">2019</option>
           </select>
         </div>
       </div>

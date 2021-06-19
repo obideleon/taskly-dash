@@ -5,31 +5,29 @@ const Rank = () => {
   return (
     <div className="p-6 w-full">
       <div className="flex items-center justify-between">
-        <h2 className="sm:text-base text-xs text-gray-100">Team Ranking</h2>
-        <p className="text-xs font-medium  text-blue cursor-pointer hover:underline">
+        <h2 className="sm:text-xl text-sm font-medium text-gray">
+          Team Ranking
+        </h2>
+        <p className="sm:text-sm text-xs font-medium  text-blue cursor-pointer hover:underline">
           Show All
         </p>
       </div>
       <div className="mt-6">
         <table className="w-full">
           <thead>
-            <tr className="border-b border-white-100">
-              <th className="text-gray-50 text-xs font-normal text-left pb-2 w-2/12">
-                Team Member Profile
-              </th>
-              <th className="text-gray-50 text-xs font-normal text-center pb-2 w-1/12">
-                Rank
-              </th>
-              <th className="text-gray-50 text-xs font-normal hidden sm:table-cell text-center pb-2 w-1/12">
+            <tr className="border-b  border-white-100 text-gray sm:text-sm text-xs text-left">
+              <th className="pb-2 w-2/12 font-normal">Team Member Profile</th>
+              <th className="text-center pb-2 w-1/12 font-normal">Rank</th>
+              <th className="hidden sm:table-cell text-center pb-2 w-1/12 font-normal">
                 Productivity
               </th>
-              <th className="text-gray-50 text-xs font-normal hidden sm:table-cell text-center pb-2 w-1/12">
+              <th className="hidden sm:table-cell text-center pb-2 w-1/12 font-normal">
                 Hours spent
               </th>
-              <th className="text-gray-50 text-xs font-normal hidden sm:table-cell text-center pb-2 w-1/12">
+              <th className="hidden sm:table-cell text-center pb-2 w-1/12 font-normal">
                 Scores
               </th>
-              <th className="text-gray-50 text-xs font-normal text-center pb-2 w-1/12">
+              <th className="text-center pb-2 w-1/12 font-normal">
                 Total Score
               </th>
             </tr>
