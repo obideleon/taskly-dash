@@ -16,11 +16,13 @@ const index = () => {
                 className="w-full px-8 py-4 rounded-lg border border-white-100 placeholder-gray-50 text-sm focus:outline-none focus:border-gray-50 focus:bg-white"
                 type="email"
                 placeholder="Email"
+                required
               />
               <input
                 className="w-full px-8 py-4 rounded-lg border border-white-100 placeholder-gray-50 text-sm focus:outline-none focus:border-gray-50 focus:bg-white mt-5"
                 type="password"
                 placeholder="Password"
+                required
               />
               <p className="text-xs underline mt-2 text-right">
                 <Link href="/signup">

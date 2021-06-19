@@ -24,16 +24,19 @@ const index = () => {
                 className="w-full px-8 py-4 rounded-lg border border-white-100 placeholder-gray-50 text-sm focus:outline-none focus:border-gray-50 focus:bg-white"
                 type="email"
                 placeholder="Email"
+                required
               />
               <input
                 className="w-full px-8 py-4 rounded-lg border border-white-100 placeholder-gray-50 text-sm focus:outline-none focus:border-gray-50 focus:bg-white mt-5"
                 type="password"
                 placeholder="Password"
+                required
               />
               <input
                 className="w-full px-8 py-4 rounded-lg border border-white-100 placeholder-gray-50 text-sm focus:outline-none focus:border-gray-50 focus:bg-white mt-5"
                 type="password"
                 placeholder="Confirm Password"
+                required
               />
               <p className="text-xs mt-2 text-right">
                 <span>Have an account? </span>
@@ -42,7 +45,7 @@ const index = () => {
                 </Link>
               </p>
               <button className="mt-5 tracking-wide font-semibold bg-blue text-white-100 w-full py-4 rounded-lg hover:bg-blue-200 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
-                Sign Up
+                <Link href="/dashboard">Sign Up</Link>
               </button>
               <p className="mt-6 text-xs text-gray-600 text-center">
                 I agree to abide by Taskly's

@@ -40,7 +40,7 @@ const Dropdown = () => {
                   Profile
                 </a>
                 <a
-                  href="#"
+                  href="/progress"
                   tabindex="1"
                   className="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left"
                   role="menuitem"
@@ -56,7 +56,7 @@ const Dropdown = () => {
                   Contact
                 </a>
                 <a
-                  href="#"
+                  href="/"
                   tabindex="2"
                   className="text-gray-400 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left"
                   role="menuitem"
