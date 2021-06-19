@@ -74,16 +74,6 @@ const Nav = ({ activeNav }) => {
             </a>
           </Link>
         </li>
-        <li className="my-2 md:my-0 text-gray border-white hover:border-blue-200 border-l-4 flex justify-center cursor-pointer">
-          <Link href="/settings">
-            <a
-              href="#"
-              className="py-1 md:py-3 pl-1 align-middle no-underline flex space-x-11"
-            >
-              <CogIcon className="h-6 w-6 my-2 opacity-80" />
-            </a>
-          </Link>
-        </li>
         <li className="my-2 md:my-0  text-gray border-white hover:border-blue-200 border-l-4 flex justify-center cursor-pointer">
           <Link href="/">
             <a

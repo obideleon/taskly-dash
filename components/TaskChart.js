@@ -31,7 +31,7 @@ const TaskChart = (props) => {
 
   return (
     <div className="w-80 2xl:w-80 mt-10 2xl:mt-5">
-      <h2 className="chart-title text-gray text-xl font-bold mb-1">
+      <h2 className="chart-title text-gray text-xl font-medium mb-1 mt-10">
         Attended Meeting
       </h2>
       <p className="chart-description text-sm text-green font-medium mb-10 2xl:mb-5">

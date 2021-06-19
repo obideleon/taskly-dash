@@ -4,7 +4,6 @@ import {
   FolderIcon,
   ArchiveIcon,
   TrashIcon,
-  CogIcon,
   LogoutIcon,
 } from "@heroicons/react/outline";
 import Link from "next/link";
@@ -42,8 +41,8 @@ const TabNav = ({ activeNav }) => {
           </Link>
         </button>
         <button className="text-gray hover:text-blue-200 py-4 px-6 inline-block border-white hover:border-blue-200 border-b-4 focus:outline-none">
-          <Link href="/settings">
-            <CogIcon className="h-6 w-6 my-2 opacity-80" />
+          <Link href="/trash">
+            <TrashIcon className="h-6 w-6 my-2 opacity-80" />
           </Link>
         </button>
         <button className="text-gray hover:text-blue-200 py-4 px-6 inline-block border-white hover:border-blue-200 border-b-4 focus:outline-none">

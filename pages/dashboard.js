@@ -12,6 +12,7 @@ import AsideHeading from "../components/AsideHeading";
 import AsideCalendar from "../components/AsideCalendar";
 import TeamHeading from "../components/TeamHeading";
 import TeamBlueCard from "../components/TeamBlueCard";
+
 import React from "react";
 
 const dashboard = () => {
@@ -165,7 +166,7 @@ const dashboard = () => {
       icon: "clock",
     },
     {
-      time: "250",
+      time: "12",
       label: "Meeting",
       bgCard: "bg-orange-50",
       bgBox: "bg-orange-100",
@@ -185,7 +186,7 @@ const dashboard = () => {
               <Header />
             </div>
             <div className="top-info__container md:ml-16 grid grid-cols-1">
-              <div className="meeting-list__wrapper w-full pl-5 pr-4 lg:pr-10">
+              <div className="meeting-list__wrapper w-full my-5 pl-5 pr-4 lg:pr-10">
                 <Heading name="Meeting List" />
                 <div class="meeting__participants-container mt-3 gap-x-3 grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4">
                   {meetingCard.map((x) => {
@@ -207,7 +208,7 @@ const dashboard = () => {
 
                 <div className="daily-sched__wrapper pr-5">
                   <Heading name="Daily Schedule" />
-                  <div className="daily-sched-with-time__container flex flex-row mt-10">
+                  <div className="daily-sched-with-time__container flex flex-row mt-5">
                     <DailySchedTime />
                     <div className="daily-sched-cards__container w-80">
                       {scheduleCard.map((x) => {
@@ -228,7 +229,7 @@ const dashboard = () => {
                 {/* Task History */}
                 <div className="task-history__wrapper">
                   <Heading name="Task History" />
-                  <div className="task-history__cards mt-10 gap-2 grid grid-cols-1 md:grid-cols-2">
+                  <div className="task-history__cards mt-5 gap-2 grid grid-cols-1 md:grid-cols-2">
                     {taskCard.map((x) => {
                       return (
                         <TaskCard

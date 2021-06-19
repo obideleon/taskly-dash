@@ -89,12 +89,17 @@
 
 .react-calendar {
   width: 100% !important;
-  border: none !important;
+  border: 0 !important;
   font-family: "Inter", sans-serif !important;
 }
 
 .react-calendar__title:active {
   @apply bg-blue-200 text-white rounded-xl !important;
+}
+
+.react-calendar button:focus {
+  border: 0 !important;
+  outline: 0 !important;
 }
 
 abbr {
@@ -115,4 +120,26 @@ abbr {
 
 .meeting__group-container:hover .meeting__group-time {
   color: #fff;
+}
+
+.fc-button {
+  background: #2c71ff !important;
+  outline: 0 !important;
+  border: none !important;
+}
+
+.fc-button:focus {
+  border: none !important;
+  outline: 0 !important;
+  background: #ff562d !important;
+}
+
+.fc-button-primary:focus {
+  border: none !important;
+  outline: 0 !important;
+  background: #ff562d !important;
+}
+
+.bell-button:focus {
+  outline: 0 !important;
 }
