@@ -14,7 +14,7 @@ const Nav = () => {
   return (
     <div
       id="sidebar"
-      className="h-screen w-20 menu bg-white text-white fixed shadow hidden sm:flex"
+      className="h-screen w-20 menu bg-white text-white fixed shadow hidden md:flex"
     >
       <ul className="list-reset w-full relative">
         <li className="my-8 full-w cursor-pointer">

@@ -34,7 +34,7 @@ const Dropdown = () => {
                 <a
                   href="#"
                   tabindex="0"
-                  className="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left"
+                  className="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left hover:bg-white-100"
                   role="menuitem"
                 >
                   Profile
@@ -42,7 +42,7 @@ const Dropdown = () => {
                 <a
                   href="#"
                   tabindex="1"
-                  className="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left"
+                  className="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left hover:bg-white-100"
                   role="menuitem"
                 >
                   Tasks
@@ -50,7 +50,7 @@ const Dropdown = () => {
                 <a
                   href="#"
                   tabindex="2"
-                  className="text-gray-400 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left"
+                  className="text-gray-400 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left hover:bg-white-100"
                   role="menuitem"
                 >
                   Contact
@@ -58,7 +58,7 @@ const Dropdown = () => {
                 <a
                   href="#"
                   tabindex="2"
-                  className="text-gray-400 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left"
+                  className="text-gray-400 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left hover:bg-white-100"
                   role="menuitem"
                 >
                   Switch Account

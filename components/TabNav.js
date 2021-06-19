@@ -30,10 +30,14 @@ const TabNav = () => {
           </Link>
         </button>
         <button className="text-gray hover:text-blue-200 py-4 px-6 inline-block border-white hover:border-blue-200 border-b-4 focus:outline-none">
-          <CogIcon className="h-6 w-6 my-2 opacity-80" />
+          <Link href="#">
+            <CogIcon className="h-6 w-6 my-2 opacity-80" />
+          </Link>
         </button>
         <button className="text-gray hover:text-blue-200 py-4 px-6 inline-block border-white hover:border-blue-200 border-b-4 focus:outline-none">
-          <LogoutIcon className="h-6 w-6 my-2 opacity-80" />
+          <Link href="/">
+            <LogoutIcon className="h-6 w-6 my-2 opacity-80" />
+          </Link>
         </button>
       </nav>
     </div>
