@@ -6,7 +6,7 @@ const Rank = () => {
     <div className="p-6 w-full">
       <div className="flex items-center justify-between">
         <h2 className="sm:text-base text-xs text-gray-100">Team Ranking</h2>
-        <p className="text-xs font-medium  text-blue cursor-pointer">
+        <p className="text-xs font-medium  text-blue cursor-pointer hover:underline">
           Show All
         </p>
       </div>
