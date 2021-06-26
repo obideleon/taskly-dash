@@ -24,16 +24,17 @@ const index = () => {
                 placeholder="Password"
                 required
               />
-              <p className="text-xs underline mt-2 text-right">
-                <Link href="/signup">
-                  <a>Create an account</a>
-                </Link>
-              </p>
               <Link href="/dashboard">
                 <button className="mt-5 tracking-wide font-semibold bg-blue text-white-100 w-full py-4 rounded-lg hover:bg-blue-200 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
                   Log in
                 </button>
               </Link>
+              <p className="text-sm mt-8 text-center">
+                <span>Don't have an account yet? </span>
+                <Link href="/signup">
+                  <a className="underline">Create here</a>
+                </Link>
+              </p>
             </div>
           </div>
         </div>

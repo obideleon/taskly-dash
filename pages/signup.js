@@ -38,24 +38,15 @@ const index = () => {
                 placeholder="Confirm Password"
                 required
               />
-              <p className="text-xs mt-2 text-right">
+
+              <button className="mt-5 tracking-wide font-semibold bg-blue text-white-100 w-full py-4 rounded-lg hover:bg-blue-200 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
+                <Link href="/dashboard">Sign Up</Link>
+              </button>
+              <p className="text-sm mt-8 text-center">
                 <span>Have an account? </span>
                 <Link href="/">
                   <a className="underline">Log in.</a>
                 </Link>
-              </p>
-              <button className="mt-5 tracking-wide font-semibold bg-blue text-white-100 w-full py-4 rounded-lg hover:bg-blue-200 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
-                <Link href="/dashboard">Sign Up</Link>
-              </button>
-              <p className="mt-6 text-xs text-gray-600 text-center">
-                I agree to abide by Taskly's
-                <a href="#" className="border-b border-gray-500 border-dotted">
-                  <span> Terms of Service </span>
-                </a>
-                and its
-                <a href="#" className="border-b border-gray-500 border-dotted">
-                  <span> Privacy Policy</span>
-                </a>
               </p>
             </div>
           </div>
