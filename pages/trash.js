@@ -8,8 +8,8 @@ import React from "react";
 const trash = () => {
   return (
     <>
-      <TabNav />
-      <Nav />
+      <TabNav activeNav="trash" />
+      <Nav activeNav="trash" />
       <div className="flex pr-10">
         <div className="mid-section__container grid grid-cols-1 w-full md:pl-10 xl:w-8/12 ">
           <div className="header__container">

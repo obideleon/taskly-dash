@@ -29,24 +29,26 @@ const Nav = ({ activeNav }) => {
         </li>
         <li
           className={`my-2 md:my-0 text-gray  hover:border-blue-200 border-l-4 flex justify-center cursor-pointer ${
-            activeNav === "main" ? "border-blue-200" : "border-white"
+            activeNav === "main" ? "border-blue-200 bg-blue-50" : "border-white"
           }`}
         >
           <Link href="/dashboard">
-            <a className="py-1 md:py-3 pl-1 align-middle text-gray-600 no-underline flex space-x-11">
+            <a className="py-1 md:py-3 pl-1 align-middle no-underline flex space-x-11">
               <HomeIcon className="h-6 w-6 my-2 opacity-80" />
             </a>
           </Link>
         </li>
         <li
           className={`my-2 md:my-0 text-gray  hover:border-blue-200 border-l-4 flex justify-center cursor-pointer ${
-            activeNav === "progress" ? "border-blue-200" : "border-white"
+            activeNav === "progress"
+              ? "border-blue-200 bg-blue-50"
+              : "border-white"
           }`}
         >
           <Link href="/progress">
             <a
               href="#"
-              className="py-1 md:py-3 pl-1 align-middle text-gray-600 no-underline flex space-x-11"
+              className="py-1 md:py-3 pl-1 align-middleno-underline flex space-x-11"
             >
               <ChartPieIcon className="h-6 w-6 my-2 opacity-80" />
             </a>
@@ -54,7 +56,9 @@ const Nav = ({ activeNav }) => {
         </li>
         <li
           className={`my-2 md:my-0 text-gray hover:border-blue-200 border-l-4 flex justify-center cursor-pointer ${
-            activeNav === "schedule" ? "border-blue-200" : "border-white"
+            activeNav === "schedule"
+              ? "border-blue-200 bg-blue-50"
+              : "border-white"
           }`}
         >
           <Link href="/schedule">
@@ -64,7 +68,13 @@ const Nav = ({ activeNav }) => {
           </Link>
         </li>
 
-        <li className="my-2 md:my-0 text-gray border-white hover:border-blue-200 border-l-4 flex justify-center cursor-pointer">
+        <li
+          className={`my-2 md:my-0 text-gray hover:border-blue-200 border-l-4 flex justify-center cursor-pointer ${
+            activeNav === "trash"
+              ? "border-blue-200 bg-blue-50"
+              : "border-white"
+          }`}
+        >
           <Link href="/trash">
             <a
               href="#"

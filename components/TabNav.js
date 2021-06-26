@@ -15,7 +15,7 @@ const TabNav = ({ activeNav }) => {
       <nav className="flex justify-around">
         <button
           className={`text-gray hover:text-blue-200 py-4 px-6 inline-block focus:outline-none font-medium hover:border-blue-200 border-b-4 ${
-            activeNav === "main" ? "border-blue-200" : "border-white"
+            activeNav === "main" ? "border-blue-200 bg-blue-50" : "border-white"
           }`}
         >
           <Link href="/dashboard">
@@ -24,7 +24,9 @@ const TabNav = ({ activeNav }) => {
         </button>
         <button
           className={`text-gray hover:text-blue-200 py-4 px-6 inline-block focus:outline-none hover:border-blue-200 border-b-4 ${
-            activeNav === "progress" ? "border-blue-200" : "border-white"
+            activeNav === "progress"
+              ? "border-blue-200 bg-blue-50"
+              : "border-white"
           }`}
         >
           <Link href="/progress">
@@ -33,14 +35,22 @@ const TabNav = ({ activeNav }) => {
         </button>
         <button
           className={`text-gray hover:text-blue-200 py-4 px-6 inline-block hover:border-blue-200 border-b-4 focus:outline-none ${
-            activeNav === "schedule" ? "border-blue-200" : "border-white"
+            activeNav === "schedule"
+              ? "border-blue-200 bg-blue-50"
+              : "border-white"
           }`}
         >
           <Link href="/schedule">
             <ArchiveIcon className="h-6 w-6 my-2 opacity-80" />
           </Link>
         </button>
-        <button className="text-gray hover:text-blue-200 py-4 px-6 inline-block border-white hover:border-blue-200 border-b-4 focus:outline-none">
+        <button
+          className={`text-gray hover:text-blue-200 py-4 px-6 inline-block hover:border-blue-200 border-b-4 focus:outline-none ${
+            activeNav === "trash"
+              ? "border-blue-200 bg-blue-50"
+              : "border-white"
+          }`}
+        >
           <Link href="/trash">
             <TrashIcon className="h-6 w-6 my-2 opacity-80" />
           </Link>
