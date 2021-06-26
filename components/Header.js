@@ -4,11 +4,11 @@ import React from "react";
 const Header = () => {
   return (
     <div className="header__container pl-5 flex flex-row mt-14 md:mt-0 md:pl-0 lg:pr-20">
-      <div class="greeting__container flex flex-col ml-0 mt-10 md:ml-10 md:px-6 mb-6">
-        <h1 class="greeting__title text-gray font-bold text-2xl">
+      <div className="greeting__container flex flex-col ml-0 mt-10 md:ml-10 md:px-6 mb-6">
+        <h1 className="greeting__title text-gray font-bold text-2xl">
           Good Day, Christina P.
         </h1>
-        <p class="greeting__description text-gray-50 text-sm mt-1">
+        <p className="greeting__description text-gray-50 text-sm mt-1">
           Welcome back, nice to see you again!
         </p>
       </div>

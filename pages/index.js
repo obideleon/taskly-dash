@@ -29,12 +29,12 @@ const index = () => {
                   Log in
                 </button>
               </Link>
-              <p className="text-sm mt-8 text-center">
-                <span>Don't have an account yet? </span>
-                <Link href="/signup">
+              <Link href="/signup">
+                <p className="text-sm mt-8 text-center">
+                  <span>Don't have an account yet? </span>
                   <a className="underline">Create here</a>
-                </Link>
-              </p>
+                </p>
+              </Link>
             </div>
           </div>
         </div>

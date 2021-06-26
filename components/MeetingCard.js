@@ -29,10 +29,10 @@ const MeetingCard = (props) => {
 
         <div className="meeting__group-btn hidden absolute ml-5">
           <div className="btn flex">
-            <button class="decline-btn py-2 px-3 border border-bg-orange text-orange rounded-xl mr-1 hover:bg-orange hover:text-white">
+            <button className="decline-btn py-2 px-3 border border-bg-orange text-orange rounded-xl mr-1 hover:bg-orange hover:text-white">
               Decline
             </button>
-            <button class="accept-btn py-2 px-3 border border-bg-blue text-blue rounded-xl hover:bg-blue-200 hover:text-white">
+            <button className="accept-btn py-2 px-3 border border-bg-blue text-blue rounded-xl hover:bg-blue-200 hover:text-white">
               Accept
             </button>
           </div>

@@ -33,7 +33,7 @@ const Dropdown = () => {
               <div className="py-1">
                 <a
                   href="#"
-                  tabindex="0"
+                  tabIndex="0"
                   className="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left hover:bg-white-100"
                   role="menuitem"
                 >
@@ -41,7 +41,7 @@ const Dropdown = () => {
                 </a>
                 <a
                   href="/progress"
-                  tabindex="1"
+                  tabIndex="1"
                   className="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left hover:bg-white-100"
                   role="menuitem"
                 >
@@ -49,7 +49,7 @@ const Dropdown = () => {
                 </a>
                 <a
                   href="#"
-                  tabindex="2"
+                  tabIndex="2"
                   className="text-gray-400 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left hover:bg-white-100"
                   role="menuitem"
                 >
@@ -57,7 +57,7 @@ const Dropdown = () => {
                 </a>
                 <a
                   href="/"
-                  tabindex="2"
+                  tabIndex="2"
                   className="text-gray-400 flex justify-between w-full px-4 py-2 text-sm leading-5 text-left hover:bg-white-100"
                   role="menuitem"
                 >

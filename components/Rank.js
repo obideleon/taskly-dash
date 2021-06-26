@@ -81,8 +81,8 @@ const Rank = () => {
             </tr>
           </thead>
           <tbody className="align-baseline">
-            {users.map((user) => (
-              <RankCard {...user} />
+            {users.map((user, i) => (
+              <RankCard {...user} key={i} />
             ))}
           </tbody>
         </table>

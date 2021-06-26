@@ -188,10 +188,11 @@ const dashboard = () => {
             <div className="top-info__container md:ml-16 grid grid-cols-1">
               <div className="meeting-list__wrapper w-full my-5 pl-5 pr-4 lg:pr-10">
                 <Heading name="Meeting List" />
-                <div class="meeting__participants-container mt-3 gap-x-3 grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4">
-                  {meetingCard.map((x) => {
+                <div className="meeting__participants-container mt-3 gap-x-3 grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4">
+                  {meetingCard.map((x, i) => {
                     return (
                       <MeetingCard
+                        key={i}
                         name={x.name}
                         description={x.description}
                         time={x.time}
@@ -211,9 +212,10 @@ const dashboard = () => {
                   <div className="daily-sched-with-time__container flex flex-row mt-5">
                     <DailySchedTime />
                     <div className="daily-sched-cards__container w-80">
-                      {scheduleCard.map((x) => {
+                      {scheduleCard.map((x, i) => {
                         return (
                           <ScheduleCard
+                            key={i}
                             name={x.name}
                             time={x.time}
                             bgColor={x.bgColor}
@@ -230,9 +232,10 @@ const dashboard = () => {
                 <div className="task-history__wrapper">
                   <Heading name="Task History" />
                   <div className="task-history__cards mt-5 gap-2 grid grid-cols-1 md:grid-cols-2">
-                    {taskCard.map((x) => {
+                    {taskCard.map((x, i) => {
                       return (
                         <TaskCard
+                          key={i}
                           time={x.time}
                           label={x.label}
                           bgCard={x.bgCard}
@@ -263,9 +266,10 @@ const dashboard = () => {
             <div className="aside-bottom-info__container">
               <TeamHeading />
               <div className="aside__profile-card">
-                {meetingTeam.map((x) => {
+                {meetingTeam.map((x, i) => {
                   return (
                     <TeamCard
+                      key={i}
                       name={x.name}
                       position={x.position}
                       pic={x.pic}
