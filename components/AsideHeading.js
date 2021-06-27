@@ -4,6 +4,7 @@ import Dropdown from "./Dropdown";
 import Toastify from "./Toastify";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import DropdownUI from "./DropdownUI";
 import React from "react";
 
 const AsideHeading = (props) => {
@@ -20,7 +21,8 @@ const AsideHeading = (props) => {
           src="./img/dp1.jpg"
           alt="image"
         />
-        <Dropdown />
+        {/* <Dropdown /> */}
+        <DropdownUI />
       </div>
     </div>
   );
