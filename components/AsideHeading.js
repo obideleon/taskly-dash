@@ -21,8 +21,8 @@ const AsideHeading = (props) => {
           src="./img/dp1.jpg"
           alt="image"
         />
-        {/* <Dropdown /> */}
-        <DropdownUI />
+        <Dropdown />
+        {/* <DropdownUI /> */}
       </div>
     </div>
   );
